@@ -1,0 +1,143 @@
+# Job Tracker config — edit this file (even from GitHub's web editor) and the
+# next scheduled run picks up the changes.
+
+# A job is kept only if its TITLE contains at least one keyword (whole-word,
+# case-insensitive). Search-based sources (LinkedIn, Amazon, Microsoft,
+# Workday, SmartRecruiters) also query each keyword, so keep this list focused.
+keywords:
+  - software engineer
+  - software development engineer
+  - sde
+  - developer
+  - devops
+  - cloud
+  - data engineer
+  - python
+  - java
+  - full stack
+  - backend
+  - frontend
+  - sre
+  - qa
+  - test engineer
+  - automation
+
+# Jobs whose title contains any of these are dropped.
+exclude:
+  - intern
+  - internship
+  - sales
+  - director
+  - vice president
+
+# Location passed to search APIs.
+search_location: India
+
+# A job is kept if its location matches any entry (case-insensitive substring).
+# Prefix an entry with "re:" to use a regular expression.
+locations:
+  - india
+  - bengaluru
+  - bangalore
+  - hyderabad
+  - pune
+  - chennai
+  - mumbai
+  - gurgaon
+  - gurugram
+  - noida
+  - delhi
+  - kolkata
+  - kochi
+  - ahmedabad
+  - coimbatore
+  - thiruvananthapuram
+  - jaipur
+  - indore
+  - chandigarh
+  - remote
+  - "re:,\\s*IND?$"   # country codes like "Bengaluru, KA, IN" / "Pune, MH, IND"
+
+# Jobs older than this (by posted date, else first-seen date) are removed.
+max_age_days: 30
+
+sources:
+  # Copy the careers URL from the browser: https://<tenant>.wd<N>.myworkdayjobs.com/<site>
+  workday:
+    enabled: true
+    pages: 2               # 20 jobs per page, per keyword
+    companies:
+      - { name: NVIDIA,         url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite" }
+      - { name: Salesforce,     url: "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site" }
+      - { name: Accenture,      url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers" }
+      - { name: Intel,          url: "https://intel.wd1.myworkdayjobs.com/External" }
+      - { name: Adobe,          url: "https://adobe.wd5.myworkdayjobs.com/external_experienced" }
+      - { name: PwC,            url: "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers" }
+      - { name: Mastercard,     url: "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers" }
+      - { name: HP,             url: "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite" }
+      - { name: Micron,         url: "https://micron.wd1.myworkdayjobs.com/External" }
+      - { name: Citi,           url: "https://citi.wd5.myworkdayjobs.com/2" }
+      - { name: Morgan Stanley, url: "https://ms.wd5.myworkdayjobs.com/External" }
+      - { name: Barclays,       url: "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays" }
+      - { name: Qualcomm,       url: "https://qualcomm.wd12.myworkdayjobs.com/External" }
+
+  # Board slug from https://boards.greenhouse.io/<slug>
+  greenhouse:
+    enabled: true
+    companies: [stripe, databricks, cloudflare, mongodb, okta, twilio, coinbase, groww]
+
+  # Slug from https://jobs.lever.co/<slug>
+  lever:
+    enabled: true
+    companies: [cred, meesho, zeta, paytm]
+
+  # Identifier from https://jobs.smartrecruiters.com/<Identifier>
+  smartrecruiters:
+    enabled: true
+    companies: [ServiceNow, BoschGroup]
+
+  amazon:
+    enabled: true
+
+  microsoft:
+    enabled: true
+    pages: 3                 # 10 jobs per page, per keyword
+    delay_seconds: 2
+
+  # Unofficial public endpoint: may get rate-limited or blocked on GitHub's IPs.
+  # Failures are logged and don't break the run.
+  linkedin:
+    enabled: true
+    pages: 2                 # 25 jobs per page, per keyword
+    time_range_hours: 24     # only jobs posted in this window
+    delay_seconds: 2
+
+  # Parses LinkedIn / Naukri job-alert emails over IMAP.
+  # Needs repo secrets EMAIL_USER and EMAIL_PASSWORD (Gmail: an app password).
+  # Skipped automatically when the secrets are missing.
+  email_alerts:
+    enabled: true
+    imap_host: imap.gmail.com
+    folder: INBOX
+    days: 3
+    senders: [linkedin.com, naukri.com]
+
+  # Google for Jobs (covers Naukri, LinkedIn, Indeed, ...) via RapidAPI's JSearch.
+  # Needs repo secret RAPIDAPI_KEY; skipped when missing. Free tier ≈ 200 req/month,
+  # so it runs at most once a day with a few queries.
+  jsearch:
+    enabled: true
+    min_interval_hours: 24
+    date_posted: week
+    queries:
+      - software engineer in India
+      - devops engineer in India
+      - data engineer in India
+      - java developer in India
+      - python developer in India
+
+  # Global remote boards (mostly startups, often US-only). Off by default.
+  remotive:
+    enabled: false
+  remoteok:
+    enabled: false

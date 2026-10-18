@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1b1f24; --muted: #5f6b7a; --border: #e2e6eb;
+    --accent: #2563eb; --accent-soft: #e8efff; --new: #16a34a; --new-soft: #e7f7ec; --warn: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1216; --card: #171b21; --text: #e6e9ee; --muted: #94a0b0; --border: #2a313b;
+      --accent: #6b9bff; --accent-soft: #1d2a45; --new: #4ade80; --new-soft: #15301f; --warn: #f59e0b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--border); }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 16px; }
+  .top { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 14px 0 10px; }
+  h1 { font-size: 20px; margin: 0; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .spacer { flex: 1; }
+  button, select, input[type=search] {
+    font: inherit; color: var(--text); background: var(--card);
+    border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px;
+  }
+  button { cursor: pointer; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; padding-bottom: 12px; align-items: center; }
+  .filters input[type=search] { flex: 1 1 240px; min-width: 0; }
+  .filters select { flex: 0 1 auto; max-width: 100%; }
+  label.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); }
+  main { padding: 16px 0 48px; }
+  .count { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+  .job { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+         padding: 12px 14px; margin-bottom: 8px; display: grid; gap: 4px; }
+  .job.is-new { border-left: 4px solid var(--new); }
+  .job a.title { color: var(--text); font-weight: 600; text-decoration: none; font-size: 16px; }
+  .job a.title:hover { color: var(--accent); text-decoration: underline; }
+  .row { display: flex; gap: 8px 14px; flex-wrap: wrap; color: var(--muted); font-size: 13.5px; }
+  .company { color: var(--text); font-weight: 500; }
+  .badge { font-size: 11.5px; padding: 1px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+  .badge.new { background: var(--new-soft); color: var(--new); font-weight: 600; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 0; }
+  details { margin-top: 24px; color: var(--muted); font-size: 13px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+  td, th { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .err { color: var(--warn); }
+  .tablewrap { overflow-x: auto; }
+  #toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--text); color: var(--bg);
+           padding: 10px 16px; border-radius: 8px; font-size: 14px; display: none; z-index: 10; max-width: calc(100% - 32px); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>💼 Job Tracker</h1>
+      <span class="meta" id="updated">Loading…</span>
+      <span class="spacer"></span>
+      <button id="markSeen" title="Clear the NEW badges">Mark all seen</button>
+      <button id="notify" class="primary">🔔 Enable alerts</button>
+    </div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search title, company, location…  (e.g. python -senior)">
+      <select id="source"><option value="">All sources</option></select>
+      <select id="company"><option value="">All companies</option></select>
+      <select id="age">
+        <option value="">Any time</option>
+        <option value="1">Last 24 hours</option>
+        <option value="3">Last 3 days</option>
+        <option value="7">Last 7 days</option>
+        <option value="14">Last 14 days</option>
+      </select>
+      <select id="sort">
+        <option value="seen">Newest found</option>
+        <option value="posted">Newest posted</option>
+        <option value="company">Company A–Z</option>
+      </select>
+      <label class="toggle"><input type="checkbox" id="newOnly"> New only</label>
+      <label class="toggle"><input type="checkbox" id="remoteOnly"> Remote</label>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+  <div style="text-align:center"><button id="more" hidden>Show more</button></div>
+  <details>
+    <summary>Source status</summary>
+    <div class="tablewrap"><table id="status"></table></div>
+  </details>
+</main>
+<div id="toast"></div>
+
+<script>
+const POLL_MINUTES = 10, PAGE = 100;
+const $ = (id) => document.getElementById(id);
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("jt_" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("jt_" + k, JSON.stringify(v)); } catch {} },
+};
+
+let data = { jobs: [], sources: {} };
+let lastSeen = store.get("lastSeen", null);   // jobs first seen after this are NEW
+let shown = PAGE;
+const filterIds = ["q", "source", "company", "age", "sort", "newOnly", "remoteOnly"];
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const isNew = (j) => lastSeen && j.first_seen > lastSeen;
+
+function ago(iso) {
+  if (!iso) return "";
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  if (h < 1) return "just now";
+  if (h < 24) return Math.floor(h) + "h ago";
+  const d = Math.floor(h / 24);
+  return d === 1 ? "yesterday" : d + " days ago";
+}
+
+async function load() {
+  const res = await fetch("jobs.json?t=" + Date.now(), { cache: "no-store" });
+  return res.json();
+}
+
+function fillSelect(el, values) {
+  const cur = el.value;
+  el.length = 1;
+  for (const [v, label] of values) el.add(new Option(label, v));
+  el.value = values.some(([v]) => v === cur) ? cur : "";
+}
+
+function populateFilters() {
+  const sources = new Map(), companies = new Map();
+  for (const j of data.jobs) {
+    sources.set(j.source, j.source_label || j.source);
+    if (j.company) companies.set(j.company, (companies.get(j.company) || 0) + 1);
+  }
+  fillSelect($("source"), [...sources].sort((a, b) => a[1].localeCompare(b[1])));
+  fillSelect($("company"), [...companies].sort((a, b) => a[0].localeCompare(b[0])).map(([c, n]) => [c, `${c} (${n})`]));
+}
+
+function matchesQuery(j, q) {
+  const hay = `${j.title} ${j.company} ${j.location}`.toLowerCase();
+  return q.toLowerCase().split(/\s+/).filter(Boolean).every((t) =>
+    t.startsWith("-") ? !hay.includes(t.slice(1)) : hay.includes(t));
+}
+
+function filtered() {
+  const q = $("q").value.trim(), src = $("source").value, co = $("company").value;
+  const age = +$("age").value, newOnly = $("newOnly").checked, remoteOnly = $("remoteOnly").checked;
+  const minDate = age ? new Date(Date.now() - age * 864e5).toISOString() : "";
+  let jobs = data.jobs.filter((j) =>
+    (!src || j.source === src) && (!co || j.company === co) &&
+    (!newOnly || isNew(j)) && (!remoteOnly || j.remote) &&
+    (!minDate || (j.posted || j.first_seen) >= minDate) &&
+    (!q || matchesQuery(j, q)));
+  const sort = $("sort").value;
+  if (sort === "posted") jobs.sort((a, b) => (b.posted || b.first_seen).localeCompare(a.posted || a.first_seen));
+  else if (sort === "company") jobs.sort((a, b) => a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
+  else jobs.sort((a, b) => b.first_seen.localeCompare(a.first_seen));
+  return jobs;
+}
+
+function render() {
+  const jobs = filtered();
+  const newCount = data.jobs.filter(isNew).length;
+  document.title = (newCount ? `(${newCount}) ` : "") + "Job Tracker";
+  $("count").textContent = `${jobs.length} of ${data.jobs.length} jobs` + (newCount ? ` · ${newCount} new` : "");
+  $("list").innerHTML = jobs.length ? jobs.slice(0, shown).map((j) => `
+    <article class="job${isNew(j) ? " is-new" : ""}">
+      <div><a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
+      <div class="row">
+        <span class="company">${esc(j.company)}</span>
+        ${j.location ? `<span>📍 ${esc(j.location)}</span>` : ""}
+        ${j.posted ? `<span title="${esc(j.posted)}">Posted ${ago(j.posted)}</span>` : `<span>Found ${ago(j.first_seen)}</span>`}
+        <span class="badge">${esc(j.source_label || j.source)}${j.via ? " · " + esc(j.via) : ""}</span>
+        ${j.remote ? `<span class="badge">Remote</span>` : ""}
+        ${isNew(j) ? `<span class="badge new">NEW</span>` : ""}
+      </div>
+    </article>`).join("") : `<div class="empty">No jobs match these filters.</div>`;
+  $("more").hidden = jobs.length <= shown;
+  $("updated").textContent = data.updated ? `Updated ${ago(data.updated)}` : "No data yet";
+}
+
+function renderStatus() {
+  const rows = Object.entries(data.sources || {}).map(([k, s]) => `
+    <tr><td>${esc(s.label || k)}</td><td>${s.ok ? "✅" : "❌"}</td>
+    <td>${s.fetched ?? ""} fetched · ${s.matched ?? ""} matched · ${s.new ?? ""} new</td>
+    <td>${ago(s.last_run)}</td>
+    <td class="err">${esc([s.error, ...(s.warnings || [])].filter(Boolean).join(" | "))}</td></tr>`);
+  $("status").innerHTML = `<tr><th>Source</th><th></th><th>Last run</th><th>When</th><th>Notes</th></tr>` + rows.join("");
+}
+
+function toast(msg) {
+  $("toast").textContent = msg;
+  $("toast").style.display = "block";
+  clearTimeout(toast.t);
+  toast.t = setTimeout(() => ($("toast").style.display = "none"), 6000);
+}
+
+function updateNotifyButton() {
+  const btn = $("notify");
+  if (!("Notification" in window)) { btn.hidden = true; return; }
+  if (Notification.permission === "granted") { btn.textContent = "🔔 Alerts on"; btn.className = ""; btn.disabled = true; }
+  else if (Notification.permission === "denied") { btn.textContent = "🔕 Alerts blocked"; btn.className = ""; btn.disabled = true; }
+}
+
+function alertNewJobs(jobs) {
+  const msg = jobs.length === 1 ? `${jobs[0].title} — ${jobs[0].company}`
+    : `${jobs.length} new jobs: ` + jobs.slice(0, 3).map((j) => j.title).join(", ") + (jobs.length > 3 ? "…" : "");
+  toast("🔔 " + msg);
+  if ("Notification" in window && Notification.permission === "granted") {
+    const n = new Notification("Job Tracker", { body: msg, tag: "job-tracker" });
+    n.onclick = () => { window.focus(); n.close(); };
+  }
+}
+
+async function poll() {
+  try {
+    const fresh = await load();
+    if (fresh.updated === data.updated) return;
+    const known = new Set(data.jobs.map((j) => j.id));
+    const added = fresh.jobs.filter((j) => !known.has(j.id));
+    data = fresh;
+    populateFilters(); renderStatus(); render();
+    if (added.length) alertNewJobs(added);
+  } catch (e) { console.warn("poll failed", e); }
+}
+
+async function init() {
+  const saved = store.get("filters", {});
+  for (const id of filterIds) {
+    const el = $(id);
+    if (saved[id] !== undefined) el.type === "checkbox" ? (el.checked = saved[id]) : (el.value = saved[id]);
+    el.addEventListener("input", () => {
+      shown = PAGE;
+      store.set("filters", Object.fromEntries(filterIds.map((i) => [i, $(i).type === "checkbox" ? $(i).checked : $(i).value])));
+      render();
+    });
+  }
+  $("more").onclick = () => { shown += PAGE; render(); };
+  $("markSeen").onclick = () => { lastSeen = data.updated; store.set("lastSeen", lastSeen); render(); };
+  $("notify").onclick = async () => {
+    const p = await Notification.requestPermission();
+    updateNotifyButton();
+    if (p === "granted") toast("Alerts on: you'll be notified while this tab is open.");
+  };
+  updateNotifyButton();
+
+  try { data = await load(); } catch (e) { $("updated").textContent = "Could not load jobs.json"; return; }
+  if (!lastSeen) { lastSeen = data.updated; store.set("lastSeen", lastSeen); }  // first visit: baseline
+  populateFilters();
+  for (const id of ["source", "company"]) if (saved[id]) $(id).value = saved[id];
+  renderStatus(); render();
+  setInterval(poll, POLL_MINUTES * 60 * 1000);
+  setInterval(() => $("updated").textContent = data.updated ? `Updated ${ago(data.updated)}` : "", 60 * 1000);
+}
+init();
+</script>
+</body>
+</html>
