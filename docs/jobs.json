@@ -1,97 +1,97 @@
 {
-"updated": "2026-11-20T20:27:38+00:00",
+"updated": "2026-11-21T07:17:19+00:00",
 "sources": {
 "workday": {
 "label": "Workday",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [
+"workday/Intel: Expecting value: line 1 column 1 (char 0)",
 "workday/Mastercard: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
-"workday/Adobe: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
-"workday/Intel: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-"workday/NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-"workday/HP: 429 Client Error: Too Many Requests for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs",
+"workday/Adobe: Expecting value: line 1 column 1 (char 0)",
+"workday/HP: Expecting value: line 1 column 1 (char 0)",
+"workday/NVIDIA: Expecting value: line 1 column 1 (char 0)",
+"workday/Micron: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
 "workday/PwC: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
 "workday/Accenture: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-"workday/Micron: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
-"workday/Barclays: 429 Client Error: Too Many Requests for url: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs",
+"workday/Citi: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
 "workday/Morgan Stanley: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
 ],
-"fetched": 211,
-"matched": 17,
-"new": 6,
-"seconds": 200.6
+"fetched": 274,
+"matched": 13,
+"new": 0,
+"seconds": 550.4
 },
 "greenhouse": {
 "label": "Greenhouse",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 3340,
+"fetched": 3337,
 "matched": 50,
-"new": 4,
-"seconds": 0.9
+"new": 0,
+"seconds": 0.6
 },
 "lever": {
 "label": "Lever",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
 "fetched": 291,
 "matched": 1,
 "new": 0,
-"seconds": 4.9
+"seconds": 0.4
 },
 "smartrecruiters": {
 "label": "SmartRecruiters",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
 "fetched": 2213,
 "matched": 321,
-"new": 5,
-"seconds": 14.5
+"new": 0,
+"seconds": 14.3
 },
 "amazon": {
 "label": "Amazon",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
 "fetched": 1519,
-"matched": 53,
+"matched": 52,
 "new": 0,
-"seconds": 9.6
+"seconds": 8.6
 },
 "microsoft": {
 "label": "Microsoft",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
 "fetched": 377,
-"matched": 196,
-"new": 1,
-"seconds": 91.5
+"matched": 192,
+"new": 0,
+"seconds": 90.5
 },
 "linkedin": {
 "label": "LinkedIn",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 159,
-"matched": 139,
-"new": 44,
-"seconds": 134.9
+"fetched": 160,
+"matched": 138,
+"new": 16,
+"seconds": 45.2
 },
 "email_alerts": {
 "label": "Email alerts",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [
@@ -104,7 +104,7 @@
 },
 "jsearch": {
 "label": "Google Jobs",
-"last_run": "2026-11-20T20:27:38+00:00",
+"last_run": "2026-11-21T07:17:19+00:00",
 "ok": true,
 "error": null,
 "warnings": [
@@ -118,6 +118,214 @@
 },
 "jobs": [
 {
+"id": "linkedin:4493258642",
+"title": "Python Developer",
+"company": "VySystems",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4493258642",
+"source": "linkedin",
+"posted": "2026-11-21T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4491997294",
+"title": "Sr.Python Developer – Python+SSH / Paramiko and Pytest / Robot-C/C++, 5+ years,Bangalore,Immediate joiners",
+"company": "Global Technologies",
+"location": "Bengaluru South, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4491997294",
+"source": "linkedin",
+"posted": "2026-11-21T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492968763",
+"title": "Software Engineer II",
+"company": "Rocket India",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4492968763",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492924520",
+"title": "AVP- Java Developer - Fixed Income Technology",
+"company": "Jefferies",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4492924520",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492941778",
+"title": "Software Engineer (AI Document Processing)",
+"company": "Entrata India",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4492941778",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492992814",
+"title": "Senior DevOps Engineer",
+"company": "Arena Club",
+"location": "Delhi, Delhi, India",
+"url": "https://www.linkedin.com/jobs/view/4492992814",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4491953978",
+"title": "Strategy Consultant-Cloud Platforms",
+"company": "IBM",
+"location": "Gurgaon, Haryana, India",
+"url": "https://www.linkedin.com/jobs/view/4491953978",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492814458",
+"title": "GenAI Python developer",
+"company": "RecruitBots AI",
+"location": "Delhi, India",
+"url": "https://www.linkedin.com/jobs/view/4492814458",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492573885",
+"title": "Full Stack Developer .Net",
+"company": "Unity Infotech",
+"location": "Kochi, Kerala, India",
+"url": "https://www.linkedin.com/jobs/view/4492573885",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492968724",
+"title": "Java Full Stack Developer- Senior Software Engineer- Navi Mumbai(Vashi)",
+"company": "Morningstar",
+"location": "Navi Mumbai, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4492968724",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492589796",
+"title": "Java Back End Developer",
+"company": "Teletrac Navman",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4492589796",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4491932342",
+"title": "Senior Node.js Backend Engineer",
+"company": "Enterprise Bot",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4491932342",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4492801311",
+"title": "Senior Engineer- ReactJS Developer",
+"company": "Teletrac Navman",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4492801311",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4491946324",
+"title": "Application Developer-Experience Front End",
+"company": "IBM",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4491946324",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4493208786",
+"title": "Developer I, Tests",
+"company": "Sherweb",
+"location": "Greater Kolkata Area",
+"url": "https://www.linkedin.com/jobs/view/4493208786",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
+"id": "linkedin:4491935629",
+"title": "QA Engineer – Manual Testing",
+"company": "Growth Heist",
+"location": "Delhi, Delhi, India",
+"url": "https://www.linkedin.com/jobs/view/4491935629",
+"source": "linkedin",
+"posted": "2026-11-20T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-21T07:17:19+00:00",
+"last_seen": "2026-11-21T07:17:19+00:00"
+},
+{
 "id": "greenhouse:8405809",
 "title": "Software Engineer (L2) Supernetwork",
 "company": "Twilio",
@@ -128,7 +336,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8405805",
@@ -141,7 +349,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8405813",
@@ -154,7 +362,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557074623",
@@ -167,7 +375,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162739838",
@@ -180,7 +388,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162720478",
@@ -193,7 +401,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162700979",
@@ -206,7 +414,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162672689",
@@ -219,7 +427,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162671589",
@@ -232,7 +440,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492573591",
@@ -245,7 +453,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485302230",
@@ -258,7 +466,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492925170",
@@ -271,7 +479,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492569201",
@@ -284,7 +492,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492976093",
@@ -297,7 +505,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491917260",
@@ -310,7 +518,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492796934",
@@ -349,7 +557,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492929234",
@@ -362,7 +570,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492906565",
@@ -375,7 +583,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492909562",
@@ -388,7 +596,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485237320",
@@ -401,7 +609,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491673333",
@@ -427,7 +635,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491921658",
@@ -453,7 +661,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491921237",
@@ -466,7 +674,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4478691044",
@@ -479,7 +687,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492926152",
@@ -492,7 +700,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492558617",
@@ -505,7 +713,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492910208",
@@ -518,7 +726,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491697786",
@@ -531,7 +739,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491907893",
@@ -557,7 +765,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492811125",
@@ -570,7 +778,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4439920265",
@@ -583,7 +791,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491684895",
@@ -609,7 +817,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492935906",
@@ -622,7 +830,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492563766",
@@ -635,7 +843,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492583700",
@@ -648,7 +856,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492583511",
@@ -661,7 +869,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491922053",
@@ -674,7 +882,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492595022",
@@ -687,7 +895,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492934081",
@@ -700,7 +908,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492939025",
@@ -713,7 +921,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492908448",
@@ -726,7 +934,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492796742",
@@ -739,7 +947,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492587492",
@@ -752,7 +960,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491949220",
@@ -765,7 +973,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492939901",
@@ -778,7 +986,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492793571",
@@ -817,7 +1025,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8368072",
@@ -830,72 +1038,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
-},
-{
-"id": "workday:citi:26982912",
-"title": "Python Developer - Software Engineer",
-"company": "Citi",
-"location": "Chennai Tamil Nadu India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Chennai-Tamil-Nadu-India/Python-Developer---Software-Engineer_26982912",
-"source": "workday",
-"posted": "2026-10-21T20:29:05+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
-},
-{
-"id": "workday:citi:25840727",
-"title": "Data Engineer - C11",
-"company": "Citi",
-"location": "Pune Maharashtra India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Engineer---C11_25840727",
-"source": "workday",
-"posted": "2026-10-21T20:29:05+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
-},
-{
-"id": "workday:citi:25840723",
-"title": "Data Engineer - C10",
-"company": "Citi",
-"location": "Pune Maharashtra India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Engineer---C10_25840723",
-"source": "workday",
-"posted": "2026-10-21T20:29:05+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
-},
-{
-"id": "workday:citi:26994805",
-"title": "Java Microservices Senior Engineer",
-"company": "Citi",
-"location": "Pune Maharashtra India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Microservices-Senior-Engineer_26994805",
-"source": "workday",
-"posted": "2026-10-21T20:29:05+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
-},
-{
-"id": "workday:ms:PT-JR043345",
-"title": "Senior Software Engineer (Senior Manager) - Parametric",
-"company": "Morgan Stanley",
-"location": "Mumbai, India",
-"url": "https://ms.wd5.myworkdayjobs.com/External/job/Mumbai-India/Senior-Software-Engineer--Senior-Manager----Parametric_PT-JR043345-1",
-"source": "workday",
-"posted": "2026-10-21T20:29:04+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8242443",
@@ -908,7 +1051,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T07:24:14+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491692708",
@@ -1753,7 +1896,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-20T07:24:14+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:micron:JR117794",
@@ -1792,7 +1935,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162478029",
@@ -1805,7 +1948,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162475047",
@@ -1818,7 +1961,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8349028",
@@ -1831,7 +1974,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10609147",
@@ -1844,7 +1987,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10608525",
@@ -1857,7 +2000,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10609500",
@@ -1870,7 +2013,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10609505",
@@ -1883,7 +2026,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10608894",
@@ -1896,7 +2039,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10608895",
@@ -1909,7 +2052,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10609176",
@@ -1922,7 +2065,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:micron:JR115814",
@@ -1961,7 +2104,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162447108",
@@ -1974,7 +2117,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162443389",
@@ -1987,7 +2130,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162443126",
@@ -2000,7 +2143,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162443139",
@@ -2013,7 +2156,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162442809",
@@ -2026,7 +2169,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162434511",
@@ -2039,7 +2182,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162434189",
@@ -2052,7 +2195,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162434099",
@@ -2065,7 +2208,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162433529",
@@ -2078,7 +2221,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162431489",
@@ -2091,7 +2234,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8358102",
@@ -2104,7 +2247,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492285553",
@@ -2390,7 +2533,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162347249",
@@ -2416,7 +2559,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557001923",
@@ -2429,7 +2572,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162238119",
@@ -2442,7 +2585,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162238059",
@@ -2455,7 +2598,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162237068",
@@ -2468,7 +2611,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10606051",
@@ -2481,7 +2624,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4484094709",
@@ -2533,7 +2676,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-19T07:33:11+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4492013011",
@@ -3079,7 +3222,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162216869",
@@ -3092,7 +3235,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162216780",
@@ -3105,7 +3248,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10607819",
@@ -3118,7 +3261,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10607547",
@@ -3131,7 +3274,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10607821",
@@ -3144,7 +3287,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10607788",
@@ -3157,7 +3300,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4490834747",
@@ -3508,7 +3651,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8393931",
@@ -3521,7 +3664,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162099143",
@@ -3547,7 +3690,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162062079",
@@ -3560,7 +3703,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162061737",
@@ -3573,7 +3716,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162062508",
@@ -3599,7 +3742,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8358101",
@@ -3612,7 +3755,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000162034219",
@@ -3625,7 +3768,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10607252",
@@ -3638,7 +3781,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10607087",
@@ -3664,7 +3807,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4490421180",
@@ -4314,7 +4457,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "lever:8c290eb7-2f7a-40e3-9fae-f4e9b752dd85",
@@ -4327,7 +4470,7 @@
 "remote": false,
 "source_label": "Lever",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393556972795",
@@ -4340,7 +4483,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4490175999",
@@ -4730,7 +4873,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8131089",
@@ -4743,7 +4886,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8286487",
@@ -4756,7 +4899,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8237493",
@@ -4769,7 +4912,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8368463",
@@ -4782,7 +4925,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557051000",
@@ -4795,7 +4938,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8377182",
@@ -4808,7 +4951,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557040974",
@@ -4821,7 +4964,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161763598",
@@ -4834,7 +4977,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161763178",
@@ -4847,7 +4990,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557006256",
@@ -4860,7 +5003,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10606082",
@@ -4873,7 +5016,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4490103193",
@@ -6121,7 +6264,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-15T18:54:51+00:00",
-"last_seen": "2026-11-16T06:39:24+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4490208699",
@@ -6342,7 +6485,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-15T18:54:51+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491232549",
@@ -6355,7 +6498,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-15T18:54:51+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4463998237",
@@ -6498,7 +6641,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-15T06:42:14+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4491228279",
@@ -6810,7 +6953,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161260689",
@@ -6836,7 +6979,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160127819",
@@ -6849,7 +6992,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000157152783",
@@ -6862,7 +7005,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4489320719",
@@ -7291,7 +7434,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T18:11:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:mastercard:R-280352",
@@ -7356,7 +7499,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-14T06:33:37+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4490745724",
@@ -7525,7 +7668,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-13T19:48:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161475293",
@@ -8032,7 +8175,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-13T19:48:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4489567368",
@@ -8448,7 +8591,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161245818",
@@ -8461,7 +8604,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161229649",
@@ -8474,7 +8617,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10603674",
@@ -9176,7 +9319,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:mastercard:R-292798",
@@ -9215,7 +9358,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161220364",
@@ -9228,7 +9371,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161220619",
@@ -9527,7 +9670,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:citi:261005060",
@@ -9605,7 +9748,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8345801",
@@ -9618,7 +9761,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557051177",
@@ -9631,7 +9774,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8358353",
@@ -9644,7 +9787,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557047625",
@@ -9670,7 +9813,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10602293",
@@ -10203,7 +10346,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000161026409",
@@ -10385,7 +10528,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160986535",
@@ -10398,7 +10541,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160985589",
@@ -10411,7 +10554,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4489441473",
@@ -10580,7 +10723,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557047820",
@@ -10593,7 +10736,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160832169",
@@ -10606,7 +10749,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4489478155",
@@ -11204,7 +11347,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160793778",
@@ -11217,7 +11360,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160790108",
@@ -11230,7 +11373,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160787594",
@@ -11243,7 +11386,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4488305158",
@@ -11451,7 +11594,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4487409943",
@@ -11490,7 +11633,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8139750",
@@ -11503,7 +11646,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160603388",
@@ -11516,7 +11659,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160600719",
@@ -11529,7 +11672,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000160578128",
@@ -11542,7 +11685,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4488895528",
@@ -13596,7 +13739,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-07T13:11:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4486638440",
@@ -14051,7 +14194,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-07T06:06:00+00:00",
-"last_seen": "2026-11-10T19:48:21+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4488475137",
@@ -14285,7 +14428,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8356850",
@@ -14298,7 +14441,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8357772",
@@ -14311,7 +14454,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4486987406",
@@ -15208,7 +15351,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-06T06:55:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485868307",
@@ -15299,7 +15442,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-06T06:55:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:citi:261005990",
@@ -16664,7 +16807,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000159553918",
@@ -16677,7 +16820,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10596464",
@@ -17652,7 +17795,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T06:34:06+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000159545668",
@@ -17782,7 +17925,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-04T06:34:06+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4486086968",
@@ -17990,7 +18133,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000159306429",
@@ -18003,7 +18146,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000159306370",
@@ -18016,7 +18159,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10595238",
@@ -19056,7 +19199,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-03T06:54:44+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485709638",
@@ -19277,7 +19420,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T21:44:49+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10594535",
@@ -20265,7 +20408,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8926498002",
@@ -20278,7 +20421,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8924868002",
@@ -20291,7 +20434,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485998657",
@@ -20980,7 +21123,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:pwc:DB_009149",
@@ -23021,7 +23164,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10593656",
@@ -23034,7 +23177,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10593661",
@@ -23047,7 +23190,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485365941",
@@ -23333,7 +23476,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485378137",
@@ -23593,7 +23736,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T13:03:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4457234516",
@@ -23632,7 +23775,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-30T13:03:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4484820605",
@@ -23827,7 +23970,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-30T13:03:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485305580",
@@ -24152,7 +24295,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-30T13:03:21+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485308595",
@@ -24282,7 +24425,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8317731",
@@ -24295,7 +24438,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10593262",
@@ -24477,7 +24620,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-10-30T13:03:21+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4485233990",
@@ -24958,7 +25101,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T22:48:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4448834238",
@@ -24997,7 +25140,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T22:48:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4466292157",
@@ -25049,7 +25192,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T22:48:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4458545244",
@@ -25062,7 +25205,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T22:48:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4475433686",
@@ -25400,7 +25543,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T22:48:23+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4475778531",
@@ -25556,7 +25699,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557045578",
@@ -25582,7 +25725,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000158478268",
@@ -25608,7 +25751,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8333165",
@@ -25621,7 +25764,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10591189",
@@ -25803,7 +25946,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4484913954",
@@ -25998,7 +26141,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4484918972",
@@ -26427,7 +26570,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-28T22:39:56+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "microsoft:1970393557022190",
@@ -26973,7 +27116,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4484456540",
@@ -27779,7 +27922,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "greenhouse:8326127",
@@ -27792,7 +27935,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "smartrecruiters:744000158010457",
@@ -27805,7 +27948,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4484094728",
@@ -28858,7 +29001,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "workday:citi:261000117",
@@ -28962,7 +29105,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-27T12:19:48+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "amazon:10589608",
@@ -29417,7 +29560,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-10-26T22:43:38+00:00",
-"last_seen": "2026-10-31T21:40:43+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4483598728",
@@ -34802,71 +34945,6 @@
 "last_seen": "2026-10-23T11:45:41+00:00"
 },
 {
-"id": "linkedin:4482767712",
-"title": "Software Engineer, .NET",
-"company": "NatWest Group",
-"location": "Gurugram, Haryana, India",
-"url": "https://www.linkedin.com/jobs/view/4482767712",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T11:45:41+00:00",
-"last_seen": "2026-10-23T21:28:23+00:00"
-},
-{
-"id": "linkedin:4443237364",
-"title": "Developer - Java - E-Commerce B2B - 2360",
-"company": "Medline",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4443237364",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T11:45:41+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4455798092",
-"title": "Software Development Engineer II, Amazon Music",
-"company": "Amazon Music",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4455798092",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T11:45:41+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4470161656",
-"title": "DE - Cloud - Senior Data Platform Engineer - GDSN02",
-"company": "EY",
-"location": "Coimbatore, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4470161656",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T11:45:41+00:00",
-"last_seen": "2026-11-14T18:11:44+00:00"
-},
-{
-"id": "linkedin:4482757808",
-"title": "QA Engineer 1",
-"company": "Numerator",
-"location": "Vadodara, Gujarat, India",
-"url": "https://www.linkedin.com/jobs/view/4482757808",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T11:45:41+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
 "id": "workday:citi:26995763",
 "title": "Machine Learning Analyst-Python and SQL",
 "company": "Citi",
@@ -34890,7 +34968,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
+"last_seen": "2026-11-21T07:17:19+00:00"
 },
 {
 "id": "linkedin:4480622105",
@@ -34945,162 +35023,6 @@
 "last_seen": "2026-10-24T04:43:23+00:00"
 },
 {
-"id": "linkedin:4482482898",
-"title": "Software Engineer (.Net)",
-"company": "WSA – Wonderful Sound for All",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4482482898",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-11-12T07:18:15+00:00"
-},
-{
-"id": "linkedin:4480094363",
-"title": "Senior Platform Software Engineer",
-"company": "Oracle",
-"location": "Trivandrum, Kerala, India",
-"url": "https://www.linkedin.com/jobs/view/4480094363",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482492436",
-"title": "Senior Software Engineer",
-"company": "U.S. Bank",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4482492436",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482488817",
-"title": "Senior DevOps Engineer",
-"company": "thinkbridge",
-"location": "Pune District, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482488817",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482725442",
-"title": "Junior Data Engineer",
-"company": "Crowe Capabilities Center – India",
-"location": "Greater Hyderabad Area",
-"url": "https://www.linkedin.com/jobs/view/4482725442",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4481628413",
-"title": "Lead Java Developer",
-"company": "Tata Consultancy Services",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4481628413",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T21:28:23+00:00"
-},
-{
-"id": "linkedin:4482479405",
-"title": "Full Stack Developer",
-"company": "Dentalkart",
-"location": "Saket, Delhi, India",
-"url": "https://www.linkedin.com/jobs/view/4482479405",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482731352",
-"title": "Fullstack Developer (Python / Node.js, React / Angular) - GB04",
-"company": "TalentXO",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482731352",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482707530",
-"title": "Senior SRE & Monitoring Developer",
-"company": "Ford Motor Company",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4482707530",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482462889",
-"title": "QA Engineer- 1",
-"company": "Fam",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4482462889",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4474139568",
-"title": "QA Engineer 2 - DPP",
-"company": "Numerator",
-"location": "Vadodara, Gujarat, India",
-"url": "https://www.linkedin.com/jobs/view/4474139568",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482704566",
-"title": "Test Automation Engineer",
-"company": "Capgemini Engineering",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4482704566",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-23T04:58:30+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
 "id": "workday:citi:26964349",
 "title": "Full Stack App Development Manager AVP",
 "company": "Citi",
@@ -35112,175 +35034,6 @@
 "source_label": "Workday",
 "first_seen": "2026-10-22T21:41:35+00:00",
 "last_seen": "2026-11-16T06:39:24+00:00"
-},
-{
-"id": "linkedin:4473984427",
-"title": "Software Development Engineer II, Alexa Endpoint Experiences",
-"company": "Amazon",
-"location": "Pune/Pimpri-Chinchwad Area",
-"url": "https://www.linkedin.com/jobs/view/4473984427",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4433957443",
-"title": "Developer II - Software Engineering(FullStack Developer)",
-"company": "UST",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4433957443",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4481387693",
-"title": "DevOps Engineer",
-"company": "Maropost",
-"location": "Sahibzada Ajit Singh Nagar, Punjab, India",
-"url": "https://www.linkedin.com/jobs/view/4481387693",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4481193896",
-"title": "Data Engineer with Databricks",
-"company": "Capco",
-"location": "Pune District, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4481193896",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4482470570",
-"title": "Django Developer",
-"company": "HuntingCube",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4482470570",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4454974446",
-"title": "Pune | Senior Backend Engineer ( Java ) IRC301847",
-"company": "GlobalLogic",
-"location": "Pune City, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4454974446",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-11-14T18:11:44+00:00"
-},
-{
-"id": "linkedin:4482465323",
-"title": "Senior Full Stack Developer",
-"company": "HAMMOQ Inc.",
-"location": "Indore, Madhya Pradesh, India",
-"url": "https://www.linkedin.com/jobs/view/4482465323",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4480061768",
-"title": "Senior Backend Engineer",
-"company": "ealana",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4480061768",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4481390213",
-"title": "React Developer Opcenter",
-"company": "Birlasoft",
-"location": "Pune/Pimpri-Chinchwad Area",
-"url": "https://www.linkedin.com/jobs/view/4481390213",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-11-14T06:33:37+00:00"
-},
-{
-"id": "linkedin:4482494018",
-"title": "Angular Developer",
-"company": "Cloudesign",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482494018",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4377558749",
-"title": "Senior Frontend Engineer",
-"company": "Electrolux Group",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4377558749",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4465029152",
-"title": "Associate Software QA Engineer",
-"company": "Light & Wonder",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4465029152",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4398152163",
-"title": "Quality Engineer I (Automation )",
-"company": "Seismic",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4398152163",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T21:41:35+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
 },
 {
 "id": "workday:citi:26994291",
@@ -35307,409 +35060,6 @@
 "source_label": "Workday",
 "first_seen": "2026-10-22T17:15:39+00:00",
 "last_seen": "2026-10-22T17:15:39+00:00"
-},
-{
-"id": "linkedin:4480032873",
-"title": "Senior Software Engineer, Authorization - India",
-"company": "JumpCloud",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4480032873",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4455795149",
-"title": "Software Development Engineer II, Digital Acceleration",
-"company": "Amazon",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4455795149",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-14T06:33:37+00:00"
-},
-{
-"id": "linkedin:4455905044",
-"title": "Software Development Engineer - II, Verification Services-Fixed",
-"company": "Amazon",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4455905044",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4481370991",
-"title": "Java Developer",
-"company": "IQVIA",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4481370991",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4480044266",
-"title": "Software Engineer",
-"company": "BHIVE Workspace",
-"location": "Greater Bengaluru Area",
-"url": "https://www.linkedin.com/jobs/view/4480044266",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482477664",
-"title": "Senior DevOps Engineer",
-"company": "Mactores",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482477664",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-28T05:49:58+00:00"
-},
-{
-"id": "linkedin:4480038980",
-"title": "DevOps Engineer",
-"company": "Adform",
-"location": "Mumbai Metropolitan Region",
-"url": "https://www.linkedin.com/jobs/view/4480038980",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4481361743",
-"title": "Junior DevOps Engineer",
-"company": "Fingent",
-"location": "Kochi, Kerala, India",
-"url": "https://www.linkedin.com/jobs/view/4481361743",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481368994",
-"title": "Lead Engineer DevOps",
-"company": "Carrier",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4481368994",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4480041607",
-"title": "Azure Cloud Platform Expert - VOIS",
-"company": "VOIS",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4480041607",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4481384352",
-"title": "Cloud Engineer",
-"company": "Teradata",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4481384352",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4480058207",
-"title": "Senior Specialist Cloud Architect",
-"company": "NiCE",
-"location": "Pune City, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4480058207",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4455915597",
-"title": "Data Engineer II, TSE Operations Analytics",
-"company": "Amazon",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4455915597",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-14T06:33:37+00:00"
-},
-{
-"id": "linkedin:4455913405",
-"title": "Data Engineer, MIDAS, Digital Acceleration",
-"company": "Amazon",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4455913405",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482450587",
-"title": "Azure Data Engineer - CTR",
-"company": "Datavail",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482450587",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4480041877",
-"title": "Python Developer (Azure)",
-"company": "Euphoric Thought Technologies Pvt. Ltd.",
-"location": "Noida, Uttar Pradesh, India",
-"url": "https://www.linkedin.com/jobs/view/4480041877",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4481355728",
-"title": "Senior Backend Engineer (Python)",
-"company": "PPT Consulting",
-"location": "Mumbai Metropolitan Region",
-"url": "https://www.linkedin.com/jobs/view/4481355728",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4473921496",
-"title": "Gen AI Developer- Python, FAST API",
-"company": "Verisk",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4473921496",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4446857700",
-"title": "Senior Java Developer, Noida",
-"company": "ION",
-"location": "Noida, Uttar Pradesh, India",
-"url": "https://www.linkedin.com/jobs/view/4446857700",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-14T06:33:37+00:00"
-},
-{
-"id": "linkedin:4482474682",
-"title": "Senior Software Developer - Node.Js",
-"company": "Rebel Foods",
-"location": "Mumbai Metropolitan Region",
-"url": "https://www.linkedin.com/jobs/view/4482474682",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4474153604",
-"title": "Senior Backend developer",
-"company": "Payoneer",
-"location": "Gurugram, Haryana, India",
-"url": "https://www.linkedin.com/jobs/view/4474153604",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482459900",
-"title": "Frontend Developer",
-"company": "HuntingCube",
-"location": "Gurgaon, Haryana, India",
-"url": "https://www.linkedin.com/jobs/view/4482459900",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4482458273",
-"title": "Frontend Developer",
-"company": "Blue Spire Inc",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4482458273",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481367046",
-"title": "SDE II - DevOps Engineer",
-"company": "Auriga IT",
-"location": "Jaipur, Rajasthan, India",
-"url": "https://www.linkedin.com/jobs/view/4481367046",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4481190822",
-"title": "Sr QA Engineer",
-"company": "DATAi2i",
-"location": "Vishakhapatnam, Andhra Pradesh, India",
-"url": "https://www.linkedin.com/jobs/view/4481190822",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-22T17:15:39+00:00"
-},
-{
-"id": "linkedin:4473934490",
-"title": "Software Engineer II (Quality) - Consumer Intelligence & Engagement",
-"company": "PUMA Group",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4473934490",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-14T06:33:37+00:00"
-},
-{
-"id": "linkedin:4481371748",
-"title": "Senior QA Engineer",
-"company": "Plan A Technologies",
-"location": "Greater Chennai Area",
-"url": "https://www.linkedin.com/jobs/view/4481371748",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-22T17:15:39+00:00"
-},
-{
-"id": "linkedin:4481350764",
-"title": "Senior Software Test Automation Engineer",
-"company": "Wolters Kluwer",
-"location": "Pune/Pimpri-Chinchwad Area",
-"url": "https://www.linkedin.com/jobs/view/4481350764",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4474140060",
-"title": "Process Executive - RPA Developer",
-"company": "Bunge",
-"location": "Sahibzada Ajit Singh Nagar, Punjab, India",
-"url": "https://www.linkedin.com/jobs/view/4474140060",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4481351756",
-"title": "RPA Developer (UiPath)",
-"company": "BSH Home Appliances Group",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4481351756",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4481359457",
-"title": "Senior Ansible Automation Developer",
-"company": "Infosys",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4481359457",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T17:15:39+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
 },
 {
 "id": "workday:citi:26991322",
@@ -35866,760 +35216,6 @@
 "source_label": "Greenhouse",
 "first_seen": "2026-10-22T11:59:54+00:00",
 "last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "smartrecruiters:744000157046939",
-"title": "Practice head – Cloud and Custom App Development",
-"company": "Bosch Group",
-"location": "bangalore, , India",
-"url": "https://jobs.smartrecruiters.com/BoschGroup/744000157046939",
-"source": "smartrecruiters",
-"posted": "2026-10-22T06:58:16+00:00",
-"remote": false,
-"source_label": "SmartRecruiters",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-27T05:12:21+00:00"
-},
-{
-"id": "microsoft:1970393557017633",
-"title": "Senior Software Engineer - AI/ML Infrastructure CoreAI",
-"company": "Microsoft",
-"location": "India, Karnataka, Bangalore",
-"url": "https://apply.careers.microsoft.com/careers/job/1970393557017633",
-"source": "microsoft",
-"posted": "2026-10-22T06:35:14+00:00",
-"remote": false,
-"source_label": "Microsoft",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-11-20T20:27:38+00:00"
-},
-{
-"id": "linkedin:4473953787",
-"title": "Software Engineer II - Agentic AI, Java , AWS , Springboot , Kafka",
-"company": "JPMorganChase",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4473953787",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482435140",
-"title": "Java Fullstack Developer",
-"company": "Wipro",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4482435140",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482437886",
-"title": "Senior Software Engineer (Java Full Stack Developer)",
-"company": "Caterpillar Inc.",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4482437886",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-29T13:10:32+00:00"
-},
-{
-"id": "linkedin:4482448499",
-"title": ".NET Full Stack",
-"company": "BNP Paribas",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482448499",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481318287",
-"title": "Java Fullstack Developer",
-"company": "Viraaj HR Solutions Private Limited",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4481318287",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481311633",
-"title": "Software Engineer III",
-"company": "Sabre",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4481311633",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4482448141",
-"title": ".Net Developer",
-"company": "Coditas",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482448141",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481316347",
-"title": "Java Backend Developer",
-"company": "Viraaj HR Solutions Private Limited",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4481316347",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4472179917",
-"title": "Lead I - DevOps Engineering",
-"company": "UST",
-"location": "Trivandrum, Kerala, India",
-"url": "https://www.linkedin.com/jobs/view/4472179917",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4472164162",
-"title": "Senior AWS & Terraform DevOps Engineer",
-"company": "UST",
-"location": "Trivandrum, Kerala, India",
-"url": "https://www.linkedin.com/jobs/view/4472164162",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4466553007",
-"title": "Senior DevOps Engineer",
-"company": "Thermo Fisher Scientific",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4466553007",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4466540218",
-"title": "Engineer II, DevOps Engineering",
-"company": "Thermo Fisher Scientific",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4466540218",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4474128636",
-"title": "Software Consultant - DevOps",
-"company": "PTC",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4474128636",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4481306339",
-"title": "DevOps Engineer",
-"company": "Reliance Intelligence",
-"location": "Navi Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4481306339",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "linkedin:4473746573",
-"title": "Senior DevOps Engineer",
-"company": "Teradata",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4473746573",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4482439644",
-"title": "Cloud Azure Admin",
-"company": "Wipro",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4482439644",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "linkedin:4473742789",
-"title": "Senior Cloud Engineer",
-"company": "Teradata",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4473742789",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "linkedin:4481304742",
-"title": "Senior Data Engineer",
-"company": "Watsonite",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4481304742",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481309974",
-"title": "Sr. Data Engineer",
-"company": "Nextpower",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4481309974",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481311026",
-"title": "Data Engineer With Fabric",
-"company": "Celebal Technologies",
-"location": "Jaipur, Rajasthan, India",
-"url": "https://www.linkedin.com/jobs/view/4481311026",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4480007576",
-"title": "[JTRYHEDM] Senior Data Engineer - Databricks",
-"company": "ZettaMine Labs Pvt. Ltd.",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4480007576",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482466135",
-"title": "Specialist - Data Engineer (Azure Databricks)",
-"company": "Danfoss",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4482466135",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482460460",
-"title": "Senior Backend Engineer (Python)",
-"company": "Sia",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482460460",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4472617490",
-"title": "Backend Engineer",
-"company": "Atlys",
-"location": "Delhi, Delhi, India",
-"url": "https://www.linkedin.com/jobs/view/4472617490",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-29T13:10:32+00:00"
-},
-{
-"id": "linkedin:4480027065",
-"title": "Backend Developer",
-"company": "Asymmetric Labs",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4480027065",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481197528",
-"title": "Senior Python Developer",
-"company": "SpeedMart",
-"location": "Gurugram, Haryana, India",
-"url": "https://www.linkedin.com/jobs/view/4481197528",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482440826",
-"title": "Software Engineer",
-"company": "Caterpillar Inc.",
-"location": "Bengaluru East, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4482440826",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-28T22:39:56+00:00"
-},
-{
-"id": "linkedin:4481345065",
-"title": "Java Developer",
-"company": "Quest Global",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4481345065",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T11:45:41+00:00"
-},
-{
-"id": "linkedin:4467382877",
-"title": "Senior Java Software Engineer",
-"company": "TrueID",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4467382877",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-29T05:54:08+00:00"
-},
-{
-"id": "linkedin:4480036252",
-"title": "Full Stack Engineer (Go and React)",
-"company": "Miratech",
-"location": "Roorkee, Uttarakhand, India",
-"url": "https://www.linkedin.com/jobs/view/4480036252",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4480019907",
-"title": "Senior Full Stack Developer",
-"company": "Log-hub AG",
-"location": "Pune City, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4480019907",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4481315037",
-"title": "Full Stack Engineer (React, Node, MongoDB)",
-"company": "Talentgigs",
-"location": "Coimbatore, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4481315037",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4472627228",
-"title": "Senior Software Engineer",
-"company": "SiteMinder",
-"location": "Pune Division, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4472627228",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-11-13T06:52:00+00:00"
-},
-{
-"id": "linkedin:4480007569",
-"title": "Software Engineer - Backend (5-7) YOE, Core",
-"company": "PhonePe",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4480007569",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T17:15:39+00:00"
-},
-{
-"id": "linkedin:4480016101",
-"title": "Lead I - Software Engineering-Front End Developer",
-"company": "UST",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4480016101",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481304996",
-"title": "Front End Developer - ReactJs",
-"company": "Leegality",
-"location": "Gurugram, Haryana, India",
-"url": "https://www.linkedin.com/jobs/view/4481304996",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482439717",
-"title": "Sr Software Engineer Syseng",
-"company": "LPL Financial Global Capability Center",
-"location": "Greater Hyderabad Area",
-"url": "https://www.linkedin.com/jobs/view/4482439717",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T17:15:39+00:00"
-},
-{
-"id": "linkedin:4481304178",
-"title": "QA Engineer",
-"company": "#ARM Worldwide",
-"location": "Gurugram, Haryana, India",
-"url": "https://www.linkedin.com/jobs/view/4481304178",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481315567",
-"title": "Mobile Test Engineer - SDET I",
-"company": "Deloitte",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4481315567",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4472644239",
-"title": "Software Quality Engineer – Automation & AI",
-"company": "KLA",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4472644239",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "linkedin:4482450397",
-"title": "Senior Test Engineer - L3 (Cards/Payments domain)",
-"company": "Wipro",
-"location": "Chennai, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4482450397",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482459048",
-"title": "Software Development Engineer in Test",
-"company": "StockX",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4482459048",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4482446718",
-"title": "Software Development Engineer in Test - Buyer Experience",
-"company": "StockX",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4482446718",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "linkedin:4481303505",
-"title": "Electrical & Automation Engineer",
-"company": "Exide Industries Limited",
-"location": "Navi Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4481303505",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4481304964",
-"title": "Lead Cyber Security - Automation Engineer",
-"company": "Dyson",
-"location": "Bengaluru, Karnataka, India",
-"url": "https://www.linkedin.com/jobs/view/4481304964",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4480007089",
-"title": "Test Automation Engineer_105000",
-"company": "MyCareernet",
-"location": "Coimbatore, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4480007089",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-23T04:58:30+00:00"
-},
-{
-"id": "linkedin:4480022925",
-"title": "Electrical Automation & Application Engineer",
-"company": "Flawless Engineering Solutions Private Limited",
-"location": "Hyderabad, Telangana, India",
-"url": "https://www.linkedin.com/jobs/view/4480022925",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4480026762",
-"title": "Senior Test Automation Engineer_104983",
-"company": "MyCareernet",
-"location": "Coimbatore, Tamil Nadu, India",
-"url": "https://www.linkedin.com/jobs/view/4480026762",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4482462123",
-"title": "Senior QA Automation Engineer",
-"company": "Appfabs Incorporation",
-"location": "Trivandrum, Kerala, India",
-"url": "https://www.linkedin.com/jobs/view/4482462123",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T17:15:39+00:00"
-},
-{
-"id": "linkedin:4482466398",
-"title": "RPA Developer",
-"company": "CLA Indus Value Consulting",
-"location": "Mumbai, Maharashtra, India",
-"url": "https://www.linkedin.com/jobs/view/4482466398",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T11:59:54+00:00",
-"last_seen": "2026-10-22T11:59:54+00:00"
-},
-{
-"id": "smartrecruiters:744000156912806",
-"title": "Sr Staff Software Engineer (Distributed Systems | Data Ingestion | Storage | Analytics) - Remote",
-"company": "ServiceNow",
-"location": "San Diego, CALIFORNIA, United States",
-"url": "https://jobs.smartrecruiters.com/ServiceNow/744000156912806",
-"source": "smartrecruiters",
-"posted": "2026-10-22T00:52:46+00:00",
-"remote": true,
-"source_label": "SmartRecruiters",
-"first_seen": "2026-10-22T04:56:35+00:00",
-"last_seen": "2026-11-04T06:34:06+00:00"
-},
-{
-"id": "amazon:10585995",
-"title": "Software Development Engineer II, Prime Benefits",
-"company": "Amazon",
-"location": "Bengaluru, Karnataka, IND",
-"url": "https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits",
-"source": "amazon",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "Amazon",
-"first_seen": "2026-10-22T04:56:35+00:00",
-"last_seen": "2026-10-28T13:03:26+00:00"
-},
-{
-"id": "linkedin:4481185136",
-"title": "Principal Software Engineer – Java",
-"company": "Dash Technologies Inc.",
-"location": "Ahmedabad, Gujarat, India",
-"url": "https://www.linkedin.com/jobs/view/4481185136",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T04:56:35+00:00",
-"last_seen": "2026-10-22T04:56:35+00:00"
-},
-{
-"id": "linkedin:4479454742",
-"title": "Fullstack Developer",
-"company": "Hivekra",
-"location": "Surat, Gujarat, India",
-"url": "https://www.linkedin.com/jobs/view/4479454742",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T04:56:35+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
-},
-{
-"id": "linkedin:4479480916",
-"title": "Full Stack Web Developer",
-"company": "4biz International LLC",
-"location": "Kozhikode, Kerala, India",
-"url": "https://www.linkedin.com/jobs/view/4479480916",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T04:56:35+00:00",
-"last_seen": "2026-10-22T04:56:35+00:00"
-},
-{
-"id": "linkedin:4481182959",
-"title": "Software Tester (Sandbox QA)",
-"company": "Air Maniax India",
-"location": "Jaipur, Rajasthan, India",
-"url": "https://www.linkedin.com/jobs/view/4481182959",
-"source": "linkedin",
-"posted": "2026-10-22T00:00:00+00:00",
-"remote": false,
-"source_label": "LinkedIn",
-"first_seen": "2026-10-22T04:56:35+00:00",
-"last_seen": "2026-10-22T21:41:35+00:00"
 }
 ]
 }
