@@ -1,97 +1,97 @@
 {
-"updated": "2026-11-23T07:47:33+00:00",
+"updated": "2026-11-23T23:58:17+00:00",
 "sources": {
 "workday": {
 "label": "Workday",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [
 "workday/Intel: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+"workday/Mastercard: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+"workday/PwC: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
+"workday/Micron: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
 "workday/Adobe: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
 "workday/HP: 429 Client Error: Too Many Requests for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs",
-"workday/Mastercard: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
 "workday/NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-"workday/PwC: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
-"workday/Accenture: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-"workday/Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
-"workday/Micron: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
-"workday/Morgan Stanley: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+"workday/Citi: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
+"workday/Morgan Stanley: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
+"workday/Accenture: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs"
 ],
-"fetched": 92,
-"matched": 7,
-"new": 0,
-"seconds": 268.6
+"fetched": 200,
+"matched": 27,
+"new": 7,
+"seconds": 265.3
 },
 "greenhouse": {
 "label": "Greenhouse",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 3339,
+"fetched": 3319,
 "matched": 50,
 "new": 0,
 "seconds": 0.6
 },
 "lever": {
 "label": "Lever",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 278,
+"fetched": 283,
 "matched": 1,
 "new": 0,
-"seconds": 2.0
+"seconds": 16.6
 },
 "smartrecruiters": {
 "label": "SmartRecruiters",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 2213,
-"matched": 312,
+"fetched": 2214,
+"matched": 273,
 "new": 2,
-"seconds": 15.2
+"seconds": 17.6
 },
 "amazon": {
 "label": "Amazon",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 1518,
-"matched": 68,
-"new": 3,
-"seconds": 7.5
+"fetched": 1516,
+"matched": 59,
+"new": 0,
+"seconds": 8.2
 },
 "microsoft": {
 "label": "Microsoft",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 373,
-"matched": 191,
+"fetched": 368,
+"matched": 175,
 "new": 0,
-"seconds": 88.2
+"seconds": 88.7
 },
 "linkedin": {
 "label": "LinkedIn",
-"last_run": "2026-11-23T07:47:33+00:00",
-"ok": true,
-"error": null,
+"last_run": "2026-11-23T23:58:17+00:00",
+"ok": false,
+"error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=sde&location=India&f_TPR=r86400&start=0",
 "warnings": [],
-"fetched": 159,
-"matched": 140,
-"new": 42,
-"seconds": 37.3
+"fetched": 0,
+"matched": 0,
+"new": 0,
+"seconds": 135.3
 },
 "email_alerts": {
 "label": "Email alerts",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [
@@ -104,7 +104,7 @@
 },
 "jsearch": {
 "label": "Google Jobs",
-"last_run": "2026-11-23T07:47:33+00:00",
+"last_run": "2026-11-23T23:58:17+00:00",
 "ok": true,
 "error": null,
 "warnings": [
@@ -118,6 +118,123 @@
 },
 "jobs": [
 {
+"id": "workday:salesforce:JR366955",
+"title": "Technical Architect - Health or Life Sciences Cloud",
+"company": "Salesforce",
+"location": "India - Bangalore",
+"url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect---Health-or-Life-Sciences-Cloud_JR366955",
+"source": "workday",
+"posted": "2026-11-23T23:59:23+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "smartrecruiters:744000163227699",
+"title": "ServiceNow Lead Developer – IT Operations Management (ITOM)",
+"company": "Bosch Group",
+"location": "bengaluru, , India",
+"url": "https://jobs.smartrecruiters.com/BoschGroup/744000163227699",
+"source": "smartrecruiters",
+"posted": "2026-11-23T13:48:53+00:00",
+"remote": false,
+"source_label": "SmartRecruiters",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "smartrecruiters:744000163169856",
+"title": "ServiceNow Lead Developer – Hardware Asset Management (HAM)",
+"company": "Bosch Group",
+"location": "bengaluru, , India",
+"url": "https://jobs.smartrecruiters.com/BoschGroup/744000163169856",
+"source": "smartrecruiters",
+"posted": "2026-11-23T09:26:30+00:00",
+"remote": false,
+"source_label": "SmartRecruiters",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "workday:citi:25840727",
+"title": "Data Engineer - C11",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Engineer---C11_25840727",
+"source": "workday",
+"posted": "2026-10-24T23:59:24+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "workday:citi:25840723",
+"title": "Data Engineer - C10",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Engineer---C10_25840723",
+"source": "workday",
+"posted": "2026-10-24T23:59:24+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "workday:citi:26994805",
+"title": "Java Microservices Senior Engineer",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Microservices-Senior-Engineer_26994805",
+"source": "workday",
+"posted": "2026-10-24T23:59:24+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "workday:citi:26996009",
+"title": "Fullstack Developer",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Fullstack-Developer_26996009",
+"source": "workday",
+"posted": "2026-10-24T23:59:24+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "workday:nvidia:JR2025965",
+"title": "Senior Software Engineer - NVEX",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---NVEX_JR2025965",
+"source": "workday",
+"posted": "2026-10-24T23:59:23+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
+"id": "workday:nvidia:JR2026404",
+"title": "Senior System Software Engineer",
+"company": "NVIDIA",
+"location": "India, Pune",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2026404",
+"source": "workday",
+"posted": "2026-10-24T23:59:23+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-23T23:58:17+00:00",
+"last_seen": "2026-11-23T23:58:17+00:00"
+},
+{
 "id": "smartrecruiters:744000163146999",
 "title": "Software Engineer (Go & Kubernetes)",
 "company": "ServiceNow",
@@ -128,7 +245,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000163143149",
@@ -141,7 +258,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10610387",
@@ -154,7 +271,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10610382",
@@ -167,7 +284,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10606861",
@@ -180,7 +297,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4492371979",
@@ -739,7 +856,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-22T19:45:50+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4469161083",
@@ -1259,7 +1376,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-22T19:45:50+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4493305679",
@@ -1324,7 +1441,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-22T06:58:07+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4363040473",
@@ -1571,7 +1688,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-22T06:58:07+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:adobe:R173660",
@@ -1584,7 +1701,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-22T06:58:07+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4493288054",
@@ -2104,7 +2221,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-21T19:22:32+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10602226",
@@ -2117,7 +2234,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-21T19:22:32+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4493258642",
@@ -2338,7 +2455,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8405805",
@@ -2351,7 +2468,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8405813",
@@ -2364,7 +2481,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557074623",
@@ -2377,7 +2494,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162739838",
@@ -2390,7 +2507,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162720478",
@@ -2403,7 +2520,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162700979",
@@ -2416,7 +2533,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162672689",
@@ -2429,7 +2546,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162671589",
@@ -2442,7 +2559,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4492573591",
@@ -3040,7 +3157,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8242443",
@@ -3053,7 +3170,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T07:24:14+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4491692708",
@@ -3898,7 +4015,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-20T07:24:14+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:micron:JR117794",
@@ -3937,7 +4054,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162478029",
@@ -3950,7 +4067,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162475047",
@@ -3963,7 +4080,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8349028",
@@ -3976,7 +4093,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10609147",
@@ -3989,7 +4106,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10608525",
@@ -4002,7 +4119,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10609500",
@@ -4015,7 +4132,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10609505",
@@ -4028,7 +4145,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10608894",
@@ -4041,7 +4158,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10608895",
@@ -4054,7 +4171,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10609176",
@@ -4067,7 +4184,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:micron:JR115814",
@@ -4093,7 +4210,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162447298",
@@ -4106,7 +4223,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162447108",
@@ -4119,7 +4236,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162443389",
@@ -4132,7 +4249,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162443126",
@@ -4184,7 +4301,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162434189",
@@ -4197,7 +4314,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162434099",
@@ -4210,7 +4327,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162433529",
@@ -4223,7 +4340,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162431489",
@@ -4236,7 +4353,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8358102",
@@ -4249,7 +4366,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4492285553",
@@ -4535,7 +4652,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162347249",
@@ -4561,7 +4678,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557001923",
@@ -4587,7 +4704,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162238059",
@@ -4600,7 +4717,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162237068",
@@ -4613,7 +4730,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10606051",
@@ -4626,7 +4743,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4484094709",
@@ -5224,7 +5341,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162216869",
@@ -5237,7 +5354,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162216780",
@@ -5250,7 +5367,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10607819",
@@ -5263,7 +5380,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10607547",
@@ -5276,7 +5393,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10607821",
@@ -5289,7 +5406,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10607788",
@@ -5302,7 +5419,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4490834747",
@@ -5653,7 +5770,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8393931",
@@ -5666,7 +5783,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162099143",
@@ -5692,7 +5809,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162062079",
@@ -5705,7 +5822,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162061737",
@@ -5718,7 +5835,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162062508",
@@ -5744,7 +5861,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8358101",
@@ -5757,7 +5874,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000162034219",
@@ -5770,7 +5887,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10607252",
@@ -5783,7 +5900,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10607087",
@@ -5809,7 +5926,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4490421180",
@@ -6459,7 +6576,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "lever:8c290eb7-2f7a-40e3-9fae-f4e9b752dd85",
@@ -6472,7 +6589,7 @@
 "remote": false,
 "source_label": "Lever",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393556972795",
@@ -6485,7 +6602,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4490175999",
@@ -6862,7 +6979,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:salesforce:JR368509",
@@ -6888,7 +7005,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8286487",
@@ -6901,7 +7018,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8237493",
@@ -6914,7 +7031,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8368463",
@@ -6927,7 +7044,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557051000",
@@ -6940,7 +7057,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8377182",
@@ -6953,7 +7070,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557040974",
@@ -6966,7 +7083,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161763598",
@@ -6979,7 +7096,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161763178",
@@ -6992,7 +7109,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557006256",
@@ -8630,7 +8747,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-15T06:42:14+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4491228279",
@@ -8942,7 +9059,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161260689",
@@ -8968,7 +9085,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160127819",
@@ -8981,7 +9098,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4489320719",
@@ -9410,7 +9527,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T18:11:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:mastercard:R-280352",
@@ -9644,7 +9761,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-13T19:48:01+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161475293",
@@ -10580,7 +10697,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161229649",
@@ -10593,7 +10710,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10603674",
@@ -11295,7 +11412,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:mastercard:R-292798",
@@ -11334,7 +11451,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161220364",
@@ -11347,7 +11464,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161220619",
@@ -11646,7 +11763,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:citi:261005060",
@@ -11724,7 +11841,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8345801",
@@ -11737,7 +11854,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557051177",
@@ -11750,7 +11867,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8358353",
@@ -11763,7 +11880,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557047625",
@@ -11789,7 +11906,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10602293",
@@ -12322,7 +12439,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000161026409",
@@ -12504,7 +12621,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160986535",
@@ -12530,7 +12647,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4489441473",
@@ -12699,7 +12816,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557047820",
@@ -12725,7 +12842,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4489478155",
@@ -13323,7 +13440,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160793778",
@@ -13336,7 +13453,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160790108",
@@ -13349,7 +13466,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160787594",
@@ -13362,7 +13479,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4488305158",
@@ -13570,7 +13687,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4487409943",
@@ -13609,7 +13726,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8139750",
@@ -13622,7 +13739,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160603388",
@@ -13635,7 +13752,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160600719",
@@ -13648,7 +13765,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000160578128",
@@ -13661,7 +13778,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4488895528",
@@ -15715,7 +15832,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-07T13:11:32+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4486638440",
@@ -16404,7 +16521,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8356850",
@@ -16417,7 +16534,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8357772",
@@ -16430,7 +16547,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4486987406",
@@ -17301,7 +17418,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-06T06:55:01+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4485868307",
@@ -18731,7 +18848,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000159596465",
@@ -18744,7 +18861,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000159553918",
@@ -18757,7 +18874,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10596464",
@@ -19732,7 +19849,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T06:34:06+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000159545668",
@@ -19862,7 +19979,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-04T06:34:06+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4486086968",
@@ -20005,7 +20122,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-22T06:58:07+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:hp:3170446",
@@ -20070,7 +20187,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000159306429",
@@ -20083,7 +20200,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000159306370",
@@ -20096,7 +20213,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10595238",
@@ -21136,7 +21253,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-03T06:54:44+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4485709638",
@@ -21357,7 +21474,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T21:44:49+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10594535",
@@ -22345,7 +22462,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8926498002",
@@ -22358,7 +22475,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8924868002",
@@ -22371,7 +22488,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4485998657",
@@ -23060,7 +23177,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:pwc:DB_009149",
@@ -25101,7 +25218,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10593656",
@@ -25114,7 +25231,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10593661",
@@ -25127,7 +25244,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4485365941",
@@ -25673,7 +25790,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T13:03:21+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4457234516",
@@ -26362,7 +26479,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8317731",
@@ -26375,7 +26492,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10593262",
@@ -27636,7 +27753,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557045578",
@@ -27688,7 +27805,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8333165",
@@ -27701,7 +27818,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10591189",
@@ -28507,7 +28624,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-28T22:39:56+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "microsoft:1970393557022190",
@@ -28520,7 +28637,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-10-28T22:39:56+00:00",
-"last_seen": "2026-10-30T13:03:21+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10590307",
@@ -29053,7 +29170,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4484456540",
@@ -29859,7 +29976,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "greenhouse:8326127",
@@ -29872,7 +29989,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "smartrecruiters:744000158010457",
@@ -29885,7 +30002,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "linkedin:4484094728",
@@ -30938,7 +31055,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-27T22:20:01+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "workday:citi:261000117",
@@ -31042,7 +31159,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-27T12:19:48+00:00",
-"last_seen": "2026-11-23T07:47:33+00:00"
+"last_seen": "2026-11-23T23:58:17+00:00"
 },
 {
 "id": "amazon:10589608",
@@ -33955,19 +34072,6 @@
 "source_label": "LinkedIn",
 "first_seen": "2026-10-25T04:49:47+00:00",
 "last_seen": "2026-10-25T20:55:39+00:00"
-},
-{
-"id": "workday:citi:261000266",
-"title": "Angular Full Stack Developer",
-"company": "Citi",
-"location": "Pune Maharashtra India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Angular-Full-Stack-Developer_261000266",
-"source": "workday",
-"posted": "2026-10-24T20:55:05+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-10-24T20:54:39+00:00",
-"last_seen": "2026-11-04T19:49:28+00:00"
 }
 ]
 }
