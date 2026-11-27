@@ -1,97 +1,97 @@
 {
-"updated": "2026-11-27T08:42:53+00:00",
+"updated": "2026-11-27T21:23:45+00:00",
 "sources": {
 "workday": {
 "label": "Workday",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [
 "workday/Intel: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-"workday/Mastercard: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
-"workday/Adobe: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
-"workday/NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
 "workday/HP: 429 Client Error: Too Many Requests for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs",
 "workday/Accenture: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
 "workday/PwC: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
-"workday/Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
-"workday/Micron: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
-"workday/Morgan Stanley: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+"workday/Adobe: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+"workday/NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+"workday/Morgan Stanley: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
+"workday/Barclays: 429 Client Error: Too Many Requests for url: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs",
+"workday/Mastercard: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+"workday/Qualcomm: 429 Client Error: Too Many Requests for url: https://qualcomm.wd12.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
 ],
-"fetched": 40,
-"matched": 1,
-"new": 0,
-"seconds": 198.7
+"fetched": 606,
+"matched": 137,
+"new": 32,
+"seconds": 267.5
 },
 "greenhouse": {
 "label": "Greenhouse",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 3337,
+"fetched": 3356,
 "matched": 48,
 "new": 0,
-"seconds": 0.6
+"seconds": 0.8
 },
 "lever": {
 "label": "Lever",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 306,
-"matched": 2,
-"new": 0,
-"seconds": 1.6
+"fetched": 309,
+"matched": 5,
+"new": 3,
+"seconds": 3.5
 },
 "smartrecruiters": {
 "label": "SmartRecruiters",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
 "fetched": 2216,
-"matched": 255,
-"new": 6,
-"seconds": 6.9
+"matched": 248,
+"new": 0,
+"seconds": 8.2
 },
 "amazon": {
 "label": "Amazon",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
 "fetched": 1522,
-"matched": 74,
-"new": 3,
-"seconds": 7.5
+"matched": 72,
+"new": 0,
+"seconds": 9.7
 },
 "microsoft": {
 "label": "Microsoft",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 373,
-"matched": 167,
+"fetched": 372,
+"matched": 174,
 "new": 0,
-"seconds": 90.7
+"seconds": 89.1
 },
 "linkedin": {
 "label": "LinkedIn",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [],
-"fetched": 159,
-"matched": 140,
-"new": 25,
-"seconds": 54.7
+"fetched": 152,
+"matched": 125,
+"new": 39,
+"seconds": 75.1
 },
 "email_alerts": {
 "label": "Email alerts",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [
@@ -104,7 +104,7 @@
 },
 "jsearch": {
 "label": "Google Jobs",
-"last_run": "2026-11-27T08:42:53+00:00",
+"last_run": "2026-11-27T21:23:45+00:00",
 "ok": true,
 "error": null,
 "warnings": [
@@ -118,6 +118,968 @@
 },
 "jobs": [
 {
+"id": "workday:mastercard:R-289611",
+"title": "Lead Software Engineer (Java)",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Java-_R-289611",
+"source": "workday",
+"posted": "2026-11-27T21:24:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-293737",
+"title": "Principal Software Engineer",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Principal-Software-Engineer_R-293737-1",
+"source": "workday",
+"posted": "2026-11-27T21:24:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "lever:1d628f96-a365-441f-967d-11e647d2f587",
+"title": "Senior Software Engineer - Backend (Kirana Club)",
+"company": "Meesho",
+"location": "Bangalore, Karnataka",
+"url": "https://jobs.lever.co/meesho/1d628f96-a365-441f-967d-11e647d2f587",
+"source": "lever",
+"posted": "2026-11-27T11:50:56+00:00",
+"remote": false,
+"source_label": "Lever",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495804671",
+"title": "Senior Software Engineer .Net Full Stack",
+"company": "NCR Voyix",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4495804671",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495806187",
+"title": "Java- Software Engineer- BF- 40489-75361- JR213122",
+"company": "Carelon Global Solutions India",
+"location": "Bengaluru South, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4495806187",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495588861",
+"title": "Full Stack Engineer - Java & UI",
+"company": "Fidelity Investments",
+"location": "Bengaluru East, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4495588861",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4493898034",
+"title": "Dotnet FullStack Developer",
+"company": "RM Technology",
+"location": "Trivandrum, Kerala, India",
+"url": "https://www.linkedin.com/jobs/view/4493898034",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4485841679",
+"title": "Principal DevOps Engineer",
+"company": "Johnson Controls",
+"location": "Hyderabad, Telangana, India",
+"url": "https://www.linkedin.com/jobs/view/4485841679",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4493883591",
+"title": "DEVOPS CICD TECHNICAL LEAD PUNE",
+"company": "FORVIA HELLA",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4493883591",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4493865600",
+"title": "Devops Engineer",
+"company": "Cyient",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4493865600",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495306174",
+"title": "AWS DevOps Admin",
+"company": "Tata Consultancy Services",
+"location": "Greater Delhi Area",
+"url": "https://www.linkedin.com/jobs/view/4495306174",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4479557429",
+"title": "Specialist Software Engineer - Public Cloud DevOps",
+"company": "Societe Generale Global Solution Centre",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4479557429",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495313729",
+"title": "Senior Cloud Engineer",
+"company": "Celestica",
+"location": "Guindy, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4495313729",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4487769826",
+"title": "Cloud Platform Engineer",
+"company": "PUMA Group",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4487769826",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495328387",
+"title": "Cloud Engineer",
+"company": "Blankaverse",
+"location": "Pune District, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4495328387",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495310499",
+"title": "Data Engineer ID89384",
+"company": "AgileEngine",
+"location": "Coimbatore South, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4495310499",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495850114",
+"title": "Data Engineer",
+"company": "TekWissen India",
+"location": "Vadodara, Gujarat, India",
+"url": "https://www.linkedin.com/jobs/view/4495850114",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495810623",
+"title": "Lead Python Engineer / Senior Consultant Specialist",
+"company": "HSBC",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4495810623",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495806402",
+"title": "Software Engineer (Backend| Python| Docker| Kubernetes| 3-6 Years)",
+"company": "Cisco",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4495806402",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4486923377",
+"title": "Senior Python Application Developer",
+"company": "Citi",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4486923377",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4493894362",
+"title": "Senior Python Developer - (Python with SSH / Paramiko mandatory) ,6+yrs,Bangalore, Immediate Joiners only",
+"company": "Global Technologies",
+"location": "Bengaluru South, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4493894362",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495596542",
+"title": "Senior Software Engineer- Java",
+"company": "BOLD",
+"location": "Noida, Uttar Pradesh, India",
+"url": "https://www.linkedin.com/jobs/view/4495596542",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4493889152",
+"title": "Java Spring Boot Developer",
+"company": "Bahwan CyberTek",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4493889152",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4440190406",
+"title": "Lead Software Engineer - Java, Spring, Springboot, Kafka, Cryptography, Session Key Derivation, HSM",
+"company": "Mastercard",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4440190406",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495093745",
+"title": "Back End Developer",
+"company": "AiStrike",
+"location": "Pune District, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4495093745",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4486912795",
+"title": "Senior Java Developer",
+"company": "Citi",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4486912795",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4440184590",
+"title": "Senior Software Engineer (Java Backend Developer)",
+"company": "Mastercard",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4440184590",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4486913607",
+"title": "Java Fullstack Developer",
+"company": "Citi",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4486913607",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4486918573",
+"title": "Java Angular Full Stack Developer",
+"company": "Citi",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4486918573",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495833270",
+"title": "Fullstack Developer",
+"company": "Schaeffler",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4495833270",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495831763",
+"title": "Senior Frontend Software Engineer",
+"company": "Atlassian",
+"location": "Greater Kolkata Area",
+"url": "https://www.linkedin.com/jobs/view/4495831763",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495318299",
+"title": "Frontend Developer (React.js / Angular)",
+"company": "Serville Technologies",
+"location": "Kochi, Kerala, India",
+"url": "https://www.linkedin.com/jobs/view/4495318299",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495081902",
+"title": "Senior Frontend Developer",
+"company": "Persistent Systems",
+"location": "Pune Division, Maharashtra, India",
+"url": "https://www.linkedin.com/jobs/view/4495081902",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495086657",
+"title": "Senior Web UI Developer - React - Hyderabad - India",
+"company": "Globant",
+"location": "Telangana, India",
+"url": "https://www.linkedin.com/jobs/view/4495086657",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4480342960",
+"title": "Principal Engineer (frontend)",
+"company": "Sage",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4480342960",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495806138",
+"title": "Software Engineer",
+"company": "GIVA",
+"location": "Bengaluru, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4495806138",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495835562",
+"title": "Sr. SRE Engineer - AWS",
+"company": "Arrow Electronics",
+"location": "Ahmedabad, Gujarat, India",
+"url": "https://www.linkedin.com/jobs/view/4495835562",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495812374",
+"title": "QA Test Engineer",
+"company": "Sage",
+"location": "Bengaluru East, Karnataka, India",
+"url": "https://www.linkedin.com/jobs/view/4495812374",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4493886588",
+"title": "Lead Test Engineer",
+"company": "HID",
+"location": "Chennai, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4493886588",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4495306187",
+"title": "Lead Substation Automation Engineer",
+"company": "GE Vernova",
+"location": "Pallavaram, Tamil Nadu, India",
+"url": "https://www.linkedin.com/jobs/view/4495306187",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4486219454",
+"title": "Software Engineer III, In Test",
+"company": "Mitratech",
+"location": "Hyderabad, Telangana, India",
+"url": "https://www.linkedin.com/jobs/view/4486219454",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "linkedin:4453692493",
+"title": "Lead Test Engineer",
+"company": "Emerson",
+"location": "Hyderabad, Telangana, India",
+"url": "https://www.linkedin.com/jobs/view/4453692493",
+"source": "linkedin",
+"posted": "2026-11-27T00:00:00+00:00",
+"remote": false,
+"source_label": "LinkedIn",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:citi:261001423",
+"title": "Generative AI Software Engineer",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Generative-AI-Software-Engineer_261001423",
+"source": "workday",
+"posted": "2026-11-25T21:25:57+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "lever:9ae5ca62-3b5f-4bc4-9986-5c475f597223",
+"title": "Software Engineer II — Backend (Kirana Club)",
+"company": "Meesho",
+"location": "Bangalore, Karnataka",
+"url": "https://jobs.lever.co/meesho/9ae5ca62-3b5f-4bc4-9986-5c475f597223",
+"source": "lever",
+"posted": "2026-11-18T12:21:08+00:00",
+"remote": false,
+"source_label": "Lever",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "lever:73db1822-f3de-4f9f-a2b3-944ea0b03702",
+"title": "Software Engineer I - Backend (Kirana Club)",
+"company": "Meesho",
+"location": "Bangalore, Karnataka",
+"url": "https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702",
+"source": "lever",
+"posted": "2026-11-18T11:54:54+00:00",
+"remote": false,
+"source_label": "Lever",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR115888",
+"title": "Staff SAP RAP Developer",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Staff-SAP-RAP-Developer_JR115888",
+"source": "workday",
+"posted": "2026-10-28T21:25:58+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR115889",
+"title": "Senior SAP UI5 / Fiori Developer",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Senior-SAP-UI5---Fiori-Developer_JR115889",
+"source": "workday",
+"posted": "2026-10-28T21:25:58+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR110751",
+"title": "Senior Business Intelligence Developer | Tableau/PowerBI & SQL",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Senior-Business-Intelligence-Developer---Tableau-PowerBI---SQL_JR110751-1",
+"source": "workday",
+"posted": "2026-10-28T21:25:58+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:citi:25840727",
+"title": "Data Engineer - C11",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Engineer---C11_25840727",
+"source": "workday",
+"posted": "2026-10-28T21:25:57+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:citi:25840723",
+"title": "Data Engineer - C10",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Engineer---C10_25840723",
+"source": "workday",
+"posted": "2026-10-28T21:25:57+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:citi:26994805",
+"title": "Java Microservices Senior Engineer",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Microservices-Senior-Engineer_26994805",
+"source": "workday",
+"posted": "2026-10-28T21:25:57+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:citi:26996009",
+"title": "Fullstack Developer",
+"company": "Citi",
+"location": "Pune Maharashtra India",
+"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Fullstack-Developer_26996009",
+"source": "workday",
+"posted": "2026-10-28T21:25:57+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-281192",
+"title": "Lead Software Engineer - C/C++, Unix/Linux, ARQC, ARPC, HSM",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer---C-C----Unix-Linux--ARQC--ARPC--HSM_R-281192",
+"source": "workday",
+"posted": "2026-10-28T21:24:56+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-262303",
+"title": "Senior Software Engineer (Mainframe Developer)",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Mainframe-Developer-_R-262303",
+"source": "workday",
+"posted": "2026-10-28T21:24:56+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:ms:PT-JR043345",
+"title": "Senior Software Engineer (Senior Manager) - Parametric",
+"company": "Morgan Stanley",
+"location": "Mumbai, India",
+"url": "https://ms.wd5.myworkdayjobs.com/External/job/Mumbai-India/Senior-Software-Engineer--Senior-Manager----Parametric_PT-JR043345-1",
+"source": "workday",
+"posted": "2026-10-28T21:24:54+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-292058",
+"title": "Lead Software Engineer (Architect)",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Architect-_R-292058",
+"source": "workday",
+"posted": "2026-10-28T21:24:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-294357",
+"title": "Senior Software Engineer - Java Full Stack React/Angular",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-Stack-React-Angular_R-294357",
+"source": "workday",
+"posted": "2026-10-28T21:24:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-293613",
+"title": "Software Engineer II - Java Full Stack React",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613",
+"source": "workday",
+"posted": "2026-10-28T21:24:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:mastercard:R-274163",
+"title": "Software Engineer II (Mainframe Developer)",
+"company": "Mastercard",
+"location": "Pune, India",
+"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-274163",
+"source": "workday",
+"posted": "2026-10-28T21:24:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR114891",
+"title": "Staff Data Engineer",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Staff-Data-Engineer_JR114891-1",
+"source": "workday",
+"posted": "2026-10-28T21:24:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR115816",
+"title": "Senior Software Engineer - IT EA ERP",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Senior-Software-Engineer---IT-EA-ERP_JR115816",
+"source": "workday",
+"posted": "2026-10-28T21:24:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR107726",
+"title": "Global Quality FrontEnd Central Quality Assurance Engineer",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Global-Quality-FrontEnd-Central-Quality-Assurance-Engineer_JR107726-1",
+"source": "workday",
+"posted": "2026-10-28T21:24:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:micron:JR112030",
+"title": "Staff SailPoint Identity Security Cloud (ISC) Developer",
+"company": "Micron",
+"location": "Hyderabad - Phoenix Aquila, India",
+"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Staff-SailPoint-Identity-Security-Cloud--ISC--Developer_JR112030",
+"source": "workday",
+"posted": "2026-10-28T21:24:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2021897",
+"title": "Senior System Software Engineer - LocalAI",
+"company": "NVIDIA",
+"location": "India, Pune",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---LocalAI_JR2021897",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2025832",
+"title": "Senior Compute System Software Engineer",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Compute-System-Software-Engineer_JR2025832-1",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2026548",
+"title": "Senior System Security Software Engineer",
+"company": "NVIDIA",
+"location": "India, Pune",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/System-Security-Software-Engineer_JR2026548",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2026345",
+"title": "Senior System Software Engineer - Display",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer---Display_JR2026345",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2027113",
+"title": "Senior Software Engineer - IT Infrastructure",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---IT-Infrastructure_JR2027113",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2012742",
+"title": "Senior System Software Engineer - GPU Virtualization",
+"company": "NVIDIA",
+"location": "India, Pune",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---GPU-Virtualization_JR2012742",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2016077",
+"title": "Senior Software Engineer, DriveAV - Autonomous Vehicles",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer--DriveAV---Autonomous-Vehicles_JR2016077",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2015568",
+"title": "Senior System Software Engineer, CUDA - Tegra",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--CUDA---Tegra_JR2015568",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2022682",
+"title": "System Software Engineer, GPU Development Tools",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer--GPU-Development-Tools_JR2022682",
+"source": "workday",
+"posted": "2026-10-28T21:23:52+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2025965",
+"title": "Senior Software Engineer - NVEX",
+"company": "NVIDIA",
+"location": "India, Bengaluru",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---NVEX_JR2025965",
+"source": "workday",
+"posted": "2026-10-28T21:23:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
+"id": "workday:nvidia:JR2026404",
+"title": "Senior System Software Engineer",
+"company": "NVIDIA",
+"location": "India, Pune",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2026404",
+"source": "workday",
+"posted": "2026-10-28T21:23:51+00:00",
+"remote": false,
+"source_label": "Workday",
+"first_seen": "2026-11-27T21:23:45+00:00",
+"last_seen": "2026-11-27T21:23:45+00:00"
+},
+{
 "id": "smartrecruiters:744000163964568",
 "title": "Senior Developer - Flutter",
 "company": "Bosch Group",
@@ -128,7 +1090,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163963208",
@@ -141,7 +1103,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163961938",
@@ -167,7 +1129,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10615646",
@@ -180,7 +1142,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10615615",
@@ -193,7 +1155,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10615575",
@@ -206,7 +1168,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495581281",
@@ -232,7 +1194,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495569776",
@@ -245,7 +1207,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493881268",
@@ -258,7 +1220,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495075579",
@@ -271,7 +1233,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495078391",
@@ -297,7 +1259,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493874236",
@@ -310,7 +1272,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495581172",
@@ -349,7 +1311,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493878254",
@@ -362,7 +1324,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495076575",
@@ -375,7 +1337,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493878106",
@@ -453,7 +1415,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495506926",
@@ -544,7 +1506,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162495859",
@@ -557,7 +1519,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-27T08:42:53+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:adobe:R173715",
@@ -570,7 +1532,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-26T21:39:07+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8258573",
@@ -583,7 +1545,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-26T21:39:07+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10615389",
@@ -596,7 +1558,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-26T21:39:07+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10615371",
@@ -609,7 +1571,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-26T21:39:07+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10614089",
@@ -622,7 +1584,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-26T21:39:07+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4483695744",
@@ -1298,7 +2260,7 @@
 "remote": false,
 "source_label": "Lever",
 "first_seen": "2026-11-26T21:39:07+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:adobe:R173706",
@@ -1311,7 +2273,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163823439",
@@ -1324,7 +2286,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8393933",
@@ -1337,7 +2299,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557076450",
@@ -1350,7 +2312,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163804138",
@@ -1363,7 +2325,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10613950",
@@ -1376,7 +2338,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10612743",
@@ -1389,7 +2351,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493804033",
@@ -1597,7 +2559,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8417596",
@@ -1610,7 +2572,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8417588",
@@ -1623,7 +2585,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:micron:JR111258",
@@ -1675,7 +2637,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-26T08:28:42+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4495208555",
@@ -2455,7 +3417,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-25T21:46:28+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493437100",
@@ -2546,7 +3508,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-25T08:44:02+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10609447",
@@ -2559,7 +3521,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-25T08:44:02+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4494495001",
@@ -2767,7 +3729,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-25T08:44:02+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4494193141",
@@ -2819,7 +3781,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-24T22:31:42+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557075912",
@@ -2845,7 +3807,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-24T22:31:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10612630",
@@ -2858,7 +3820,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-24T22:31:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4494166282",
@@ -3534,7 +4496,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-24T09:59:31+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8411579",
@@ -3573,7 +4535,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-24T09:59:31+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10611676",
@@ -4574,7 +5536,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-24T09:59:31+00:00",
-"last_seen": "2026-11-24T09:59:31+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:salesforce:JR366955",
@@ -4600,7 +5562,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-23T23:58:17+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163169856",
@@ -4613,7 +5575,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-23T23:58:17+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163146999",
@@ -4626,7 +5588,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000163143149",
@@ -4639,7 +5601,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10610387",
@@ -4652,7 +5614,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10610382",
@@ -4665,7 +5627,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10606861",
@@ -4678,7 +5640,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-23T07:47:33+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4492371979",
@@ -5237,7 +6199,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-22T19:45:50+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4469161083",
@@ -5757,7 +6719,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-22T19:45:50+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493305679",
@@ -6069,7 +7031,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-22T06:58:07+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:adobe:R173660",
@@ -6082,7 +7044,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-22T06:58:07+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493288054",
@@ -6511,7 +7473,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-21T19:22:32+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493235034",
@@ -6602,7 +7564,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-21T19:22:32+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10602226",
@@ -6615,7 +7577,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-21T19:22:32+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4493258642",
@@ -6836,7 +7798,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8405805",
@@ -6849,7 +7811,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8405813",
@@ -6862,7 +7824,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557074623",
@@ -6888,7 +7850,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162720478",
@@ -6901,7 +7863,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162700979",
@@ -6914,7 +7876,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162672689",
@@ -6927,7 +7889,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162671589",
@@ -6940,7 +7902,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4492573591",
@@ -7525,7 +8487,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8368072",
@@ -7538,7 +8500,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T20:27:38+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8242443",
@@ -7551,7 +8513,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-20T07:24:14+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4491692708",
@@ -8071,7 +9033,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-20T07:24:14+00:00",
-"last_seen": "2026-11-20T07:24:14+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4492491285",
@@ -8435,7 +9397,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162478029",
@@ -8448,7 +9410,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162475047",
@@ -8461,7 +9423,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8349028",
@@ -8474,7 +9436,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10609147",
@@ -8487,7 +9449,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10608525",
@@ -8500,7 +9462,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10609500",
@@ -8539,7 +9501,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10608895",
@@ -8565,7 +9527,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:micron:JR115814",
@@ -8578,7 +9540,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-19T20:42:54+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:hp:3170389",
@@ -8604,7 +9566,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162447108",
@@ -8617,7 +9579,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162443389",
@@ -8630,7 +9592,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162443126",
@@ -8682,7 +9644,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162434189",
@@ -8695,7 +9657,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162434099",
@@ -8708,7 +9670,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162433529",
@@ -8721,7 +9683,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162431489",
@@ -8734,7 +9696,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8358102",
@@ -8747,7 +9709,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4492285553",
@@ -9033,7 +9995,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-19T07:33:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162347249",
@@ -9085,7 +10047,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162238059",
@@ -9098,7 +10060,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162237068",
@@ -9111,7 +10073,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10606051",
@@ -9124,7 +10086,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T20:37:44+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4484094709",
@@ -9722,7 +10684,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162216869",
@@ -9735,7 +10697,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162216780",
@@ -9748,7 +10710,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10607819",
@@ -9761,7 +10723,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10607547",
@@ -9774,7 +10736,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10607821",
@@ -9800,7 +10762,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4490834747",
@@ -10138,7 +11100,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-18T07:37:16+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8396809",
@@ -10151,7 +11113,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8393931",
@@ -10164,7 +11126,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162099143",
@@ -10190,7 +11152,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162062079",
@@ -10203,7 +11165,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162061737",
@@ -10242,7 +11204,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8358101",
@@ -10255,7 +11217,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000162034219",
@@ -10268,7 +11230,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10607252",
@@ -10307,7 +11269,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4490421180",
@@ -10957,7 +11919,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-17T20:59:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "lever:8c290eb7-2f7a-40e3-9fae-f4e9b752dd85",
@@ -10970,7 +11932,7 @@
 "remote": false,
 "source_label": "Lever",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393556972795",
@@ -10983,7 +11945,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4490175999",
@@ -11360,7 +12322,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-17T08:00:34+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:salesforce:JR368509",
@@ -11373,7 +12335,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8131089",
@@ -11386,7 +12348,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8286487",
@@ -11399,7 +12361,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8237493",
@@ -11412,7 +12374,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8368463",
@@ -11425,7 +12387,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557051000",
@@ -11438,7 +12400,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8377182",
@@ -11451,7 +12413,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557040974",
@@ -11477,7 +12439,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161763178",
@@ -11490,7 +12452,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-16T22:12:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557006256",
@@ -12712,7 +13674,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-16T06:39:24+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:citi:261000758",
@@ -13102,7 +14064,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-15T18:54:51+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:mastercard:R-293237",
@@ -13115,7 +14077,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-15T18:54:51+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8944097002",
@@ -13440,7 +14402,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161260689",
@@ -13466,7 +14428,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160127819",
@@ -13479,7 +14441,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-14T22:30:09+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4489320719",
@@ -13921,7 +14883,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-14T18:11:44+00:00",
-"last_seen": "2026-11-24T22:31:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4491052056",
@@ -14142,7 +15104,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-13T19:48:01+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161475293",
@@ -14766,7 +15728,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-13T06:52:00+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4490544549",
@@ -15078,7 +16040,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161229649",
@@ -15091,7 +16053,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10603674",
@@ -15806,7 +16768,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-12T19:59:49+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:nvidia:JR2029287",
@@ -15819,7 +16781,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8358096",
@@ -15832,7 +16794,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161220364",
@@ -15845,7 +16807,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161220619",
@@ -16144,7 +17106,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-12T07:18:15+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:citi:261005060",
@@ -16235,7 +17197,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557051177",
@@ -16248,7 +17210,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8358353",
@@ -16261,7 +17223,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557047625",
@@ -16287,7 +17249,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-11T19:39:52+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10602293",
@@ -16820,7 +17782,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000161026409",
@@ -17002,7 +17964,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160986535",
@@ -17015,7 +17977,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160985589",
@@ -17028,7 +17990,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-11T06:34:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4489441473",
@@ -17197,7 +18159,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557047820",
@@ -17223,7 +18185,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T19:48:21+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4489478155",
@@ -17821,7 +18783,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160793778",
@@ -17834,7 +18796,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160790108",
@@ -17847,7 +18809,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160787594",
@@ -17860,7 +18822,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4488305158",
@@ -18068,7 +19030,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-10T07:25:23+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4487409943",
@@ -18107,7 +19069,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8139750",
@@ -18120,7 +19082,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160603388",
@@ -18133,7 +19095,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160600719",
@@ -18146,7 +19108,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000160578128",
@@ -18159,7 +19121,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-09T22:26:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4488895528",
@@ -20213,7 +21175,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-07T13:11:32+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486638440",
@@ -20876,7 +21838,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:intel:JR0288900",
@@ -20902,7 +21864,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8356850",
@@ -20915,7 +21877,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8357772",
@@ -20928,7 +21890,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486987406",
@@ -20980,7 +21942,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T13:11:32+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486961241",
@@ -21058,7 +22020,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T13:11:32+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4488148208",
@@ -21097,7 +22059,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T06:06:00+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486253230",
@@ -21123,7 +22085,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T06:06:00+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4462155734",
@@ -21227,7 +22189,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T13:11:32+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486981280",
@@ -21370,7 +22332,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T06:06:00+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4416247487",
@@ -21461,7 +22423,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T13:11:32+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486244353",
@@ -21539,7 +22501,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T13:11:32+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4488132723",
@@ -21604,7 +22566,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-07T13:11:32+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4488157122",
@@ -21657,19 +22619,6 @@
 "source_label": "LinkedIn",
 "first_seen": "2026-11-06T19:28:34+00:00",
 "last_seen": "2026-11-06T19:28:34+00:00"
-},
-{
-"id": "workday:citi:26986153",
-"title": "Java Developer",
-"company": "Citi",
-"location": "Pune Maharashtra India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Developer_26986153",
-"source": "workday",
-"posted": "2026-10-28T19:29:00+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-11-06T19:28:34+00:00",
-"last_seen": "2026-11-11T06:34:57+00:00"
 },
 {
 "id": "workday:citi:261000714",
@@ -21799,7 +22748,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-11-06T06:55:01+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4485868307",
@@ -22046,7 +22995,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-05T20:01:35+00:00",
-"last_seen": "2026-11-06T06:55:01+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4477659718",
@@ -22345,7 +23294,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-05T20:01:35+00:00",
-"last_seen": "2026-11-06T06:55:01+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486763158",
@@ -22462,7 +23411,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-05T20:01:35+00:00",
-"last_seen": "2026-11-06T06:55:01+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4488017245",
@@ -22878,7 +23827,7 @@
 "remote": false,
 "source_label": "LinkedIn",
 "first_seen": "2026-11-05T20:01:35+00:00",
-"last_seen": "2026-11-05T20:01:35+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:citi:26997180",
@@ -22943,7 +23892,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-11-05T06:55:25+00:00",
-"last_seen": "2026-11-26T21:39:07+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:salesforce:JR359537",
@@ -23229,7 +24178,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000159553918",
@@ -23242,7 +24191,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T19:49:28+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10596464",
@@ -24217,7 +25166,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-04T06:34:06+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000159545668",
@@ -24347,7 +25296,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-04T06:34:06+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4486086968",
@@ -24555,7 +25504,7 @@
 "remote": true,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000159306429",
@@ -24568,7 +25517,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "smartrecruiters:744000159306370",
@@ -24581,7 +25530,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-03T19:31:13+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10595238",
@@ -25621,7 +26570,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-11-03T06:54:44+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4485709638",
@@ -25842,7 +26791,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T21:44:49+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10594535",
@@ -26830,7 +27779,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8926498002",
@@ -26843,7 +27792,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8924868002",
@@ -26856,7 +27805,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4485998657",
@@ -27545,7 +28494,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-11-02T06:17:11+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:pwc:DB_009149",
@@ -29183,7 +30132,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-10-31T12:41:24+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4468605837",
@@ -29586,7 +30535,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10593656",
@@ -29599,7 +30548,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10593661",
@@ -29612,7 +30561,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T22:25:57+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4485365941",
@@ -30145,7 +31094,7 @@
 "remote": false,
 "source_label": "Amazon",
 "first_seen": "2026-10-30T13:03:21+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "linkedin:4457234516",
@@ -30834,7 +31783,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8317731",
@@ -30847,7 +31796,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-30T05:55:42+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10593262",
@@ -31419,7 +32368,7 @@
 "remote": false,
 "source_label": "Microsoft",
 "first_seen": "2026-10-29T22:48:23+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10592289",
@@ -32056,7 +33005,7 @@
 "remote": false,
 "source_label": "Workday",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "workday:salesforce:JR366273",
@@ -32082,7 +33031,7 @@
 "remote": false,
 "source_label": "SmartRecruiters",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "microsoft:1970393557045578",
@@ -32134,7 +33083,7 @@
 "remote": false,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "greenhouse:8333165",
@@ -32147,7 +33096,7 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-29T13:10:32+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
+"last_seen": "2026-11-27T21:23:45+00:00"
 },
 {
 "id": "amazon:10591189",
@@ -32667,97 +33616,6 @@
 "remote": true,
 "source_label": "Greenhouse",
 "first_seen": "2026-10-28T22:39:56+00:00",
-"last_seen": "2026-11-25T08:44:02+00:00"
-},
-{
-"id": "microsoft:1970393557022190",
-"title": "Software Engineer Apprenticeship",
-"company": "Microsoft",
-"location": "India, Multiple Locations, Multiple Locations",
-"url": "https://apply.careers.microsoft.com/careers/job/1970393557022190",
-"source": "microsoft",
-"posted": "2026-10-28T13:39:55+00:00",
-"remote": false,
-"source_label": "Microsoft",
-"first_seen": "2026-10-28T22:39:56+00:00",
-"last_seen": "2026-11-27T08:42:53+00:00"
-},
-{
-"id": "workday:citi:261002082",
-"title": "Database Oracle and Python developer",
-"company": "Citi",
-"location": "Pune Maharashtra India",
-"url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Database-Oracle--and-Python-developer_261002082",
-"source": "workday",
-"posted": "2026-10-28T13:04:06+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-11-12T07:18:15+00:00"
-},
-{
-"id": "workday:micron:JR111251",
-"title": "Principal Engineer, ESSD Firmware Developer",
-"company": "Micron",
-"location": "Hyderabad - Phoenix Aquila, India",
-"url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Staff-Engineer--ESSD-Firmware-Developer_JR111251",
-"source": "workday",
-"posted": "2026-10-28T13:03:41+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-11-16T06:39:24+00:00"
-},
-{
-"id": "workday:mastercard:R-290020",
-"title": "Lead Software Engineer-2",
-"company": "Mastercard",
-"location": "Pune, India",
-"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer-2_R-290020",
-"source": "workday",
-"posted": "2026-10-28T13:03:27+00:00",
-"remote": false,
-"source_label": "Workday",
-"first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-11-26T08:28:42+00:00"
-},
-{
-"id": "smartrecruiters:744000158241999",
-"title": "Senior Staff Platform Engineer (Kubernetes, Go/Python)",
-"company": "ServiceNow",
-"location": "Hyderabad, , India",
-"url": "https://jobs.smartrecruiters.com/ServiceNow/744000158241999",
-"source": "smartrecruiters",
-"posted": "2026-10-28T09:30:30+00:00",
-"remote": false,
-"source_label": "SmartRecruiters",
-"first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-10-28T13:03:26+00:00"
-},
-{
-"id": "smartrecruiters:744000158241909",
-"title": "Staff Platform Engineer (Kubernetes, Go/Python)",
-"company": "ServiceNow",
-"location": "Hyderabad, , India",
-"url": "https://jobs.smartrecruiters.com/ServiceNow/744000158241909",
-"source": "smartrecruiters",
-"posted": "2026-10-28T09:29:34+00:00",
-"remote": false,
-"source_label": "SmartRecruiters",
-"first_seen": "2026-10-28T13:03:26+00:00",
-"last_seen": "2026-10-28T13:03:26+00:00"
-},
-{
-"id": "greenhouse:8130876",
-"title": "Software Engineer, New Grad",
-"company": "Stripe",
-"location": "Bangalore",
-"url": "https://stripe.com/jobs/search?gh_jid=8130876",
-"source": "greenhouse",
-"posted": "2026-10-28T09:19:59+00:00",
-"remote": false,
-"source_label": "Greenhouse",
-"first_seen": "2026-10-28T13:03:26+00:00",
 "last_seen": "2026-11-25T08:44:02+00:00"
 }
 ]
